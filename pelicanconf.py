@@ -1,12 +1,11 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'y'
+AUTHOR = 'Jed Brown'
 SITENAME = 'Jed Brown'
-SITEURL = ''
+SITEURL = 'http://jedbrown.org'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'America/Chicago'
 
 DEFAULT_LANG = 'en'
 
@@ -15,17 +14,72 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
+DISPLAY_CATEGORIES_ON_MENU = False
+
+PAGE_URL = '{slug}'
+PAGE_SAVE_AS = '{slug}/index.html'
+ARTICLE_URL = '{slug}'
+ARTICLE_SAVE_AS = '{slug}/index.html'
+
 # Blogroll
 LINKS =  (('Pelican', 'http://getpelican.com/'),
           ('Python.org', 'http://python.org/'),
           ('Jinja2', 'http://jinja.pocoo.org/'),
           ('You can modify those links in your config file', '#'),)
 
+PORTRAIT_IMG = 'images/jed.jpg'
+PORTRAIT_ALT = "Jed's head"
+
+SOFTWARE = [dict(name='PETSc', url='http://mcs.anl.gov/petsc',
+                 description='Portable Extensible Toolkit for Scientific computing: an library of parallel algebraic solvers and time integrators'),
+            dict(name='PISM', url='http://pism-docs.org',
+                 description='Parallel Ice Sheet Model.'),
+            dict(name='Dohp', url='https://github.com/jedbrown/dohp',
+                 description='Dual-order h- and p-version finite element library.'),
+            dict(name='git-fat', url='https://github.com/jedbrown',
+                 description='A simple approach to large file support for Git.'),]
+#PROJECTS = SOFTWARE             # Some themes use the other name
+
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = [('github', 'https://github.com/jedbrown'),
+          ('bitbucket', 'https://bitbucket.org/jedbrown'),
+          ('scicomp.stackexchange', 'http://scicomp.stackexchange.com/users/119/jed-brown'),
+          ('diaspora', 'https://diasp.org/u/jed'),]
 
 DEFAULT_PAGINATION = False
 
+PLUGINS = ['latex',
+           #'bibtex',
+           'extract_toc']
+PLUGIN_PATH = '/home/jed/src/pelican-plugins'
+MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
+STATIC_PATHS = ['theme/images', 'images', 'files']
+
+LANDING_PAGE_ABOUT = dict(title='Jed Brown',
+                          details=
+"""
+<p>
+  <a href="mailto:jedbrown@mcs.anl.gov">jedbrown at mcs.anl.gov</a> <br />
+
+  <strong>Assistant Computational Mathematician</strong> <br />
+  <a href="http://mcs.anl.gov/research/LANS">Laboratory for Advanced Numerical Simulation</a><br />
+  <a href="http://mcs.anl.gov">Mathematics and Computer Science Division</a><br />
+  Argonne National Laboratory<br />
+  9700 S Cass, Bldg 240<br />
+  Lemont, IL 60439
+
+</p>
+
+<h5><a href="files/jed-cv.pdf">CV (pdf)</a></h5>
+<h5><a href="research">Research</a></h5>
+""" % dict(SITEURL=SITEURL))
+
+THEME = '/home/jed/src/pelican-themes/jedstrap'
+BOOTSTRAP_THEME = 'spacelab'
+PYGMENTS_STYLE = 'default'
+
+PUBLICATIONS_SRC = 'content/example.bib'
+#DIRECT_TEMPLATES = ('index', 'publications', 'tags', 'categories', 'archives')
+
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
