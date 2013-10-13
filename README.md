@@ -1,16 +1,6 @@
-# pelican-bootstrap3
+# jedstrap
 
-This is a Bootstrap 3 theme for Pelican. It's fully responsive. Bootstrap 3 has seen an official, final release now, so I don't expect any breaking changes anymore. I will try to keep it up-to-date.
-
-## Installation
-
-First:
-
-`git clone https://github.com/DandyDev/pelican-bootstrap3.git`
-
-Then:
-
-Point the `THEME` variable in your `pelicanconf.py` to `/path/to/pelican-bootstrap3`
+This Pelican theme is derived from [pelican-bootstrap3](https://github.com/DandyDev/pelican-bootstrap3) by Daan Debie.
 
 ## Usage
 
@@ -29,9 +19,20 @@ This theme honors the following standard Pelican settings:
 
 It uses the `tag_cloud` variable for displaying tags in the sidebar. You can control the amount of tags shown with: `TAG_CLOUD_MAX_ITEMS`
 
-Categories are disabled by default because I don't use them myself. If you want to show them in the sidebar, uncomment the relevant section in `includes/sidebar.html`
+Categories are disabled by default because I don't use them myself.
+If you want to show them in the sidebar, uncomment the relevant section in `includes/sidebar.html`
 
-## Extras
+## MathJax
+
+MathJax is supported via the "latex" plugin from [pelican-plugins](https://github.com/getpelican/pelican-plugins).
+
+## Pygments
+
+Styles can be generated using
+
+    $ pygmentize -S YOURSTYLE -f html -a .highlight > static/css/pygments.YOURSTYLE.css
+
+and activated from `pelicanconf.py` by setting `PYGMENTS_STYLE = "YOURSTYLE"`.
 
 ### GitHub
 
@@ -52,13 +53,3 @@ You can enable sharing buttons through [AddThis](http://www.addthis.com/) by set
 ### Facebook Open Graph
 
 In order to make the Facebook like button work better, the template contains Open Graph metatags like `<meta property="og:type" content="article"/>`. You can disable them by setting `USE_OPEN_GRAPH` to `False`. You can use `OPEN_GRAPH_FB_APP_ID` to provide a Facebook _app id_. You can also provide a default image that will be passed to Facebook for the homepage of you site by setting `OPEN_GRAPH_IMAGE` to a relative file path, which will be prefixed by your site's static directory.
-
-## Screenshot
-
-![](screenshot.png)
-
-![](screenshot-article.png)
-
-## Live example
-
-[This is my website](http://dandydev.net)
