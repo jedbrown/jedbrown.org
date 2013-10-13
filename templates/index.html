@@ -1,5 +1,37 @@
 {% extends "base.html" %}
 {% block content %}
+    {% if LANDING_PAGE_ABOUT and LANDING_PAGE_ABOUT.details %}
+      {% if LANDING_PAGE_ABOUT and LANDING_PAGE_ABOUT.title %}
+      <header class="page_header col-md-8">
+        <h1><a href="{{ SITEURL }}">{{ LANDING_PAGE_ABOUT.title }}</a></h1>
+      </header>
+      {% endif %}
+      <div class="row">
+        <div class="col-md-7">
+          <div class="article-content">
+            {{ LANDING_PAGE_ABOUT.details }}
+          </div>
+        </div>
+        <div class="col-md-4">
+          {% if PORTRAIT_IMG %}
+          <img src="{{ PORTRAIT_IMG }}", alt="{{ PORTRAIT_ALT }}" width="200px" />
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+
+    {% if SOFTWARE %}
+    <software>
+      <h2 id="my-software">Software Projects</h2>
+      {% for project in SOFTWARE %}
+      <dl class="list-all-articles">
+        <dt><a href="{{ project.url }}" title="{{ project.name }}">{{ project.name }}</a></dt>
+        <dd><span class="proj_desc">{{ project.description }}</span></dd>
+      </dl>
+      {% endfor %}
+    </software>
+    {% endif %}
+
     {% if articles %}
         {% for article in (articles_page.object_list if articles_page else articles) %}
             <article>
