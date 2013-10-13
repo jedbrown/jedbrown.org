@@ -8,6 +8,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if article and article.author %}
+    <meta name="author" content="{{ article.author }}" />
+    <meta name="copyright" content="{{ article.author }}" />
+    {% elif page and page.author %}
+    <meta name="author" content="{{ page.author }}" />
+    <meta name="copyright" content="{{ page.author }}" />
+    {% else %}
+    <meta name="author" content="{{ AUTHOR }}" />
+    <meta name="copyright" content="{{ AUTHOR }}" />
+    {% endif %}
 
     <!-- Open Graph tags -->
     {% if USE_OPEN_GRAPH is not defined %}
