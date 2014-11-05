@@ -5,7 +5,7 @@ AUTHOR = 'Jed Brown'
 SITENAME = 'Jed Brown'
 SITEURL = 'http://jedbrown.org'
 
-TIMEZONE = 'America/Chicago'
+TIMEZONE = 'America/Denver'
 
 DEFAULT_LANG = 'en'
 
@@ -36,7 +36,7 @@ SOFTWARE = [dict(name='PETSc', url='http://mcs.anl.gov/petsc',
                  description='Parallel Ice Sheet Model.'),
             dict(name='Dohp', url='https://github.com/jedbrown/dohp',
                  description='Dual-order h- and p-version finite element library.'),
-            dict(name='git-fat', url='https://github.com/jedbrown',
+            dict(name='git-fat', url='https://github.com/jedbrown/git-fat',
                  description='A simple approach to large file support for Git.'),]
 #PROJECTS = SOFTWARE             # Some themes use the other name
 
@@ -44,7 +44,8 @@ SOFTWARE = [dict(name='PETSc', url='http://mcs.anl.gov/petsc',
 SOCIAL = [('github', 'https://github.com/jedbrown'),
           ('bitbucket', 'https://bitbucket.org/jedbrown'),
           ('scicomp.stackexchange', 'http://scicomp.stackexchange.com/users/119/jed-brown'),
-          ('diaspora', 'https://diasp.org/u/jed'),]
+          ('diaspora', 'https://diasp.org/u/jed'),
+          ('scholar', 'http://scholar.google.com/citations?hl=en&user=x_9_NGwAAAAJ')]
 
 DEFAULT_PAGINATION = False
 
