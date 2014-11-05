@@ -52,7 +52,7 @@ DEFAULT_PAGINATION = False
 PLUGINS = ['latex',
            #'bibtex',
            'extract_toc']
-PLUGIN_PATH = '/home/jed/src/pelican-plugins'
+PLUGIN_PATHS = ['/home/jed/src/pelican-plugins']
 MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
 STATIC_PATHS = ['theme/images', 'images', 'files']
 
