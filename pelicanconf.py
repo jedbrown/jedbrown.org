@@ -71,6 +71,13 @@ LANDING_PAGE_ABOUT = dict(title='Jed Brown',
 
 </p>
 
+<p>
+  <strong>Assistant Professor Adjoint</strong> <br />
+  <a href="http://colorado.edu/cs/">Department of Computer Science</a><br />
+  University of Colorado Boulder<br />
+  430 UCB, Boulder, CO 80309
+</p>
+
 <h5><a href="files/jed-cv.pdf">CV (pdf)</a></h5>
 <h5><a href="research">Research</a></h5>
 """ % dict(SITEURL=SITEURL))
