@@ -13,9 +13,9 @@ FTP_USER=anonymous
 FTP_TARGET_DIR=/
 
 SSH_HOST=do.jedbrown.org
-SSH_PORT=22
+SSH_PORT=2234
 SSH_USER=http-publish
-SSH_TARGET_DIR=/srv/http/www/jedbrown.org
+SSH_TARGET_DIR=/home/http-publish/jedbrown.org
 
 S3_BUCKET=my_s3_bucket
 
