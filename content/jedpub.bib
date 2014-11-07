@@ -1,0 +1,290 @@
+%% Journal articles
+
+@article{brown2014runtime,
+  title={Run-time extensibility and librarization of simulation software},
+  author={Jed Brown and Matthew G. Knepley and Barry F. Smith},
+  journal={to appear in IEEE Computing in Science and Engineering},
+  year={2014}
+}
+@article{brown2013tmeice,
+  title={Achieving textbook multigrid efficiency for hydrostatic ice flow},
+  author={Jed Brown and Barry F. Smith and Aron Ahmadia},
+  journal={SIAM Journal on Scientific Computing},
+  volume=35,
+  number=2,
+  year={2013},
+  pages={359--375},
+  doi={10.1137/110834512},
+  note={Also preprint ANL/MCS-P743-1298}
+}
+@article{KeyesMcInnesWoodwardEtAl13,
+ title    = {Multiphysics Simulations: Challenges and Opportunities},
+ author   = {David E. Keyes and Lois Curfman McInnes and Carol Woodward and
+             William Gropp and Eric Myra and Michael Pernice and
+             John Bell and Jed Brown and Alain Clo and Jeffrey Connors and 
+             Emil Constantinescu and Don Estep and Kate Evans and Charbel Farhat and 
+             Ammar Hakim and Glenn Hammond and Glen Hansen and Judith Hill and 
+             Tobin Isaac and Xiangmin Jiao and Kirk Jordan and Dinesh Kaushik and 
+             Efthimios Kaxiras and Alice Koniges and Kihwan Lee and Aaron Lott and 
+             Qiming Lu and John Magerlein and Reed Maxwell and Michael McCourt and 
+             Miriam Mehl and Roger Pawlowski and Amanda Peters Randles and Daniel Reynolds and
+             Beatrice Rivi\`{e}re and Ulrich R\"{u}de and Tim Scheibe and John Shadid and 
+             Brendan Sheehan and Mark Shephard and Andrew Siegel and
+             Barry Smith and Xianzhu Tang and Cian Wilson and Barbara Wohlmuth},
+ journal  = {International Journal of High Performance Computing Applications},
+ month    = {Feb},
+ year     = {2013},
+ volume   = {27},
+ number   = {1},
+ pages    = {4--83},
+ doi      = {10.1177/1094342012468181},
+ note     = {Special issue},
+ abstract = {We consider multiphysics applications from algorithmic and
+architectural perspectives, where ``algorithmic'' includes both
+mathematical analysis and computational complexity and
+``architectural'' includes both software and hardware environments.
+Many diverse multiphysics applications can be reduced, en route to
+their computational simulation, to a common algebraic coupling
+paradigm. Mathematical analysis of multiphysics coupling in this form
+is not always practical for realistic applications, but model problems
+representative of applications discussed herein can provide insight.
+A variety of software frameworks for multiphysics applications have
+been constructed and refined within disciplinary communities and
+executed on leading-edge computer systems.  We examine several of
+these, expose some commonalities among them, and attempt to
+extrapolate best practices to future systems. From our study, we
+summarize challenges and forecast opportunities.}
+}
+@article{malas2012streaming,
+  title={Optimizing the Performance of Streaming Numerical Kernels on the {IBM BlueGene/P PowerPC} 450 Processor},
+  author={Tareq M. Malas and Aron J. Ahmadia and Jed Brown and John A. Gunnels and David E. Keyes},
+  journal={International Journal of High Performance Computing Applications},
+  volume={27},
+  number={2},
+  pages={193--209},
+  year={2013},
+  publisher={SAGE Publications},
+  doi={10.1177/1094342012444795}
+}
+@article {biezuner2012computing,
+   author = {Biezuner, Rodney and Brown, Jed and Ercole, Grey and Martins, Eder},
+   affiliation = {Departamento de Matem\'atica—ICEx, Universidade Federal de Minas Gerais, Av. Ant\^onio Carlos 6627, Caixa Postal 702, 30161-970 Belo Horizonte, MG, Brazil},
+   title = {Computing the First Eigenpair of the $p$-{L}aplacian via Inverse Iteration of Sublinear Supersolutions},
+   journal = {Journal of Scientific Computing},
+   publisher = {Springer Netherlands},
+   issn = {0885-7474},
+   keyword = {Mathematics and Statistics},
+   pages = {180--201},
+   volume = 52,
+   issue = 1,
+   year = 2012,
+   doi = {10.1007/s10915-011-9540-0}
+}
+@article {brown2010dohp,
+  author = {Brown, Jed},
+  affiliation = {Versuchsanstalt f\"ur Wasserbau, Hydrologie und Glaziologie (VAW), ETH Z\"urich, Z\"urich, Switzerland},
+  title = {Efficient Nonlinear Solvers for Nodal High-Order Finite Elements in {3D}},
+  journal = {Journal of Scientific Computing},
+  publisher = {Springer Netherlands},
+  issn = {0885-7474},
+  keyword = {Mathematics and Statistics},
+  pages = {48-63},
+  volume = {45},
+  issue = {1},
+  doi = {10.1007/s10915-010-9396-8},
+  abstract = {Conventional high-order finite element methods are rarely used for industrial problems because the Jacobian rapidly loses sparsity as the order is increased, leading to unaffordable solve times and memory requirements. This effect typically limits order to at most quadratic, despite the favorable accuracy and stability properties offered by quadratic and higher order discretizations. We present a method in which the action of the Jacobian is applied matrix-free exploiting a tensor product basis on hexahedral elements, while much sparser matrices based on Q 1 sub-elements on the nodes of the high-order basis are assembled for preconditioning. With this  dual-order  scheme, storage is independent of spectral order and a natural taping scheme is available to update a full-accuracy matrix-free Jacobian during residual evaluation. Matrix-free Jacobian application circumvents the memory bandwidth bottleneck typical of sparse matrix operations, providing several times greater floating point performance and better use of multiple cores with shared memory bus. Computational results for the p-Laplacian and Stokes problem, using block preconditioners and AMG, demonstrate mesh-independent convergence rates and weak (bounded) dependence on order, even for highly deformed meshes and nonlinear systems with several orders of magnitude dynamic range in coefficients. For spectral orders around 5, the dual-order scheme requires half the memory and similar time to assembled quadratic (Q 2) elements, making it very affordable for general use.},
+  year = {2010},
+  pdf = {https://jedbrown.org/files/Brown-EfficientNonlinearSolversNodalHighOrder3D-2010.pdf}
+}
+@article{amundson2010ice,
+  title={{Ice m{\'e}lange dynamics and implications for terminus stability, Jakobshavn Isbr{\ae}, Greenland}},
+  author={Jason M. Amundson and Mark Fahnestock and Martin Truffer and Jed Brown and Martin P. L{\"u}thi and Roman J. Motyka},
+  journal={J. Geophys. Res},
+  volume={115},
+  pages={F01005},
+  year={2010}
+}
+@article{bueler2009shallow,
+  title={{Shallow shelf approximation as a ``sliding law'' in a thermomechanically coupled ice sheet model}},
+  author={Bueler, E. and Brown, J.},
+  journal={Journal of Geophysical Research-Earth Surface},
+  volume={114},
+  number={F3},
+  pages={F03008},
+  year={2009},
+  publisher={American Geophysical Union}
+}
+@article{bueler2007est,
+  title={{Exact solutions to the thermomechanically coupled shallow ice approximation: effective tools for verification}},
+  author={Bueler, E. and Brown, J. and Lingle, C.},
+  journal={J. Glaciol},
+  volume={53},
+  pages={499--516},
+  year={2007}
+}
+@article{bueler2007fcv,
+  title={{Fast computation of a viscoelastic deformable Earth model for ice-sheet simulations}},
+  author={Bueler, E. and Lingle, C.S. and Brown, J.},
+  journal={Ann. Glaciol},
+  volume={46},
+  pages={97--105},
+  year={2007}
+}
+@article {bueler2005iso,
+  author = {E. Bueler and C. S. Lingle and J. A. Kallen-Brown and D. N. Covey and L. N. Bowman},
+  title = {Exact solutions and numerical verification for isothermal ice sheets},
+  journal = {J. Glaciol.},
+  volume = {51},
+  number = {173},
+  pages = {291--306},
+  year = {2005},
+}
+
+%% Conference
+
+@inproceedings{may2014ptatin,
+  author={Dave A. May and Jed Brown and Laetitia Le Pourhiet},
+  title={{pTatin3D}: {H}igh-Performance Methods for Long-Term Lithospheric Dynamics},
+  booktitle={Proceedings of SC14: International Conference for High Performance Computing, Networking, Storage and Analysis},
+  year={2014},
+  organization={ACM}
+}
+@inproceedings{knepley2013citations,
+  title={Accurately Citing Software and Algorithms Used in Publications},
+  author={Matthew G. Knepley and Jed Brown and Lois Curfman McInnes and Barry F. Smith},
+  booktitle={Workshop towards Sustainable Software for Science: Practice and Experiences (WSSSPE)},
+  note={Preprint \url{http://dx.doi.org/10.6084/m9.figshare.785731}},
+  year={2013}
+}
+@inproceedings{brown2013runtime,
+  title={Run-time extensibility: anything less is unsustainable},
+  author={Jed Brown, Matthew G. Knepley, Barry F. Smith},
+  booktitle={Workshop towards Sustainable Software for Science: Practice and Experiences (WSSSPE)},  
+  note={Preprint \url{http://dx.doi.org/10.6084/m9.figshare.791571}},
+  year={2013}
+}
+@inproceedings{brown2013quasinewton,
+  author    = {Jed Brown and Peter Brune},
+  title     = {Low-rank quasi-{N}ewton updates for robust {J}acobian lagging in {N}ewton-type methods},
+  year      = {2013},
+  booktitle = {International Conference on Mathematics and Computational Methods Applied to Nuclear Science and Engineering},
+  pages     = {2554--2565},
+}
+@inproceedings{bkmms2012,
+  author    = {J. Brown and M. G. Knepley and D. A. May and L. C. McInnes and B. F. Smith},
+  title     = {Composable Linear Solvers for Multiphysics},
+  booktitle = {Proceeedings of the 11th International Symposium on Parallel and Distributed Computing (ISPDC 2012)},
+  year      = {2012},
+  url       = {http://doi.ieeecomputersociety.org/10.1109/ISPDC.2012.16},
+  publisher = {IEEE Computer Society},
+  pages     = {55--62},
+}
+@InProceedings{eth_biwi_00721,
+  author = {K. Burckhardt and D. Szczerba and J. Brown and K. Muralidhar and and G. Székely},
+  title = {Fast Implicit Simulation of Oscillatory Flow in Human Abdominal Bifurcation using a Schur Complement Preconditioner},
+  booktitle = {Euro-Par 2009 Parallel Processing},
+  year = {2009},
+  month = {August},
+  pages = {747-759},
+  volume = {5704},
+  editor = {H. Sips and D. Epema and and H.-X. Lin},
+  series = {Lecture Notes in Computer Science},
+  publisher = {Springer},
+  keywords = {Aortic aneurysm, flow simulation, streamline diffusion FEM, indefinite matrix, parallel Krylov solver}
+}
+
+%% Reports
+
+@techreport{ghosh2014scalable,
+  title = {Scalable Nonlinear Compact Schemes},
+  number = {ANL/MCS-TM-340},
+  institution={Argonne National Laboratory},
+  year = {2014},
+  abstract = {Solutions to hyperbolic conservation laws are often characterized by a large range of length scales as well as discontinuities. Standard nonlinear finite-difference schemes, such as the WENO schemes, yield non- oscillatory solutions but lack the spectral resolution required to model the relevant length scales. Linear compact schemes have a high spectral resolution; however, they suffer from spurious oscillations across discontinuities and sharp gradients. Weighted nonlinear compact schemes, such as the CRWENO scheme and the hybrid compact-WENO schemes, combine the non-oscillatory nature of the WENO schemes with the high spectral resolution of the compact schemes and are thus ideal for solutions with multiple length scales and discontinuities. One example of an application area is compressible, turbulent flows. The CRWENO scheme and the hybrid compact-WENO schemes have a nonlinear, solution-dependent left-hand side and therefore require the solution of banded systems of equations at each time-integration step or stage. Application of these schemes to multiprocessor simulations requires an efficient, scalable algorithm for the solution to the banded systems. Past efforts at implementing nonlinear compact schemes for parallel simulations suffer from one or more of the following drawbacks: parallelization-induced approximations and errors, complicated and inefficient scheduling of communication and computation, significant increase in the mathematical complexity of the banded systems solver, and high communication overhead. Therefore, these algorithms do not scale well for massively parallel simulations and are inefficient compared with the corresponding standard finite-difference schemes.},
+  author = {Debojyoti Ghosh and Emil M. Constantinescu and Jed Brown}
+}
+@techreport{arrigo2013earthcube,
+  title={{EarthCube} Modeling Workshop Results},
+  author={Jennifer Arrigo and Jed Brown and Louise Kellogg and Lorraine Hwang and Scott Peckham and David Tarboton},
+  institution={Computational Infrastructure for Geodynamics},
+  url={http://geodynamics.org/cig/community/workshops/Earthcube13/ExecSummary},
+  year={2013}
+}
+@inproceedings{brown2013dimension,
+  title={Vectorization, communication aggregation, and reuse in stochastic and temporal dimensions},
+  author={Jed Brown},
+  booktitle={Exascale Mathematics Workshop, Aug 21--22, Washington, DC},
+  year={2013},
+  organization={DOE Office of Advanced Scientific Computing Research}
+}
+@inproceedings{adams2013lowcomm,
+  title={Low-communication techniques for extreme-scale multilevel solvers},
+  author={Mark F. Adams and Jed Brown and Matt Knepley},
+  booktitle={Exascale Mathematics Workshop, Aug 21--22, Washington, DC},
+  year={2013},
+  organization={DOE Office of Advanced Scientific Computing Research}
+}
+@article{brown2012nonblockingieee,
+  author={Jed Brown},
+  title = {User-Defined Non-Blocking Collectives Must Make Progress},
+  journal = {IEEE Technical Committee on Scalable Computing},
+  type = {Blog},
+  howpublished = {\url{https://www.ieeetcsc.org/activities/blog/user_defined_nonblocking_collectives_must_make_progress}},
+  year = 2012
+}
+@inproceedings{adams2012exascalelibraries,
+  author = {Mark Adams and Jed Brown and Barry F. Smith},
+  title = {Exascale Programming Models Must Vigorously Enable Libraries},
+  booktitle = {DOE Exascale Research Conference},
+  year = 2012
+}
+@inproceedings{anitescu2012exascale,
+  author = {Mihai Anitescu and Jed Brown and Paul Fischer and Sven Leyffer and Lois Curfman McInnes and Todd Munson and Barry F. Smith},
+  title = {Exascale Co-design Opportunities: {M}ultilevel Approaches for Hierarchical Models, Architectures, Algorithms, and Software},
+  booktitle = {DOE Exascale Research Conference},
+  year = 2012
+}
+@techreport{scott2012fosteringgeo,
+  title={Fostering Interactions Between the Geosciences and Mathematics, Statistics, and Computer Science},
+  author={L. Ridgway Scott and Jed Brown and George W. Bergantz and Dan Cooley and Clint Dawson and Maarten de Hoop and Donald Estep and Natasha Flyer and Efi Foufoula-Georgiou and Michael Ghil and Matthew Knepley and Randall J. LeVeque and Lek-Heng Lim and Serge Prudhomme and Adrian Sandu and Frederik J. Simons and Philip B. Stark and Michael Stein and Seth Stein and Toshiro Tanimoto and Daniel Tartakovsky and Jonathan Weare and Robert Weiss and Grady B. Wright and Dave Yuen},
+  institution={University of Chicago},
+  number={2012-02},
+  year=2012
+}
+@TechReport{petsc-user-ref,
+  author = {Satish Balay and Shrirang Abhyankar and Mark~F. Adams and Jed Brown and Peter Brune
+            and Kris Buschelman and Victor Eijkhout and William~D. Gropp
+            and Dinesh Kaushik and Matthew~G. Knepley
+            and Lois Curfman McInnes and Karl Rupp and Barry~F. Smith
+            and Hong Zhang},
+  title  = {{PETS}c Users Manual},
+  institution = {Argonne National Laboratory},
+  year   = 2014,
+  number = {ANL-95/11 - Revision 3.5},
+  url    = {http://www.mcs.anl.gov/petsc}
+}
+@techreport{HPGMGv1,
+  author =      "M. F. Adams  and J. Brown and J. Shalf and B. Van Straalen
+and E. Strohmaier and S. Williams",
+  title =       "{HPGMG} 1.0: A Benchmark for Ranking High Performance
+Computing Systems",
+  institution = "LBNL",
+  address =     "Berkeley",
+  year =        "2014",
+  NUMBER =        {LBNL-6630E},
+}
+
+%% Submitted
+@article{may2014scalable,
+  title={A scalable matrix-free {S}tokes discretization for geodynamic applications},
+  author={David A. May and Jed Brown and Laetitia Le Pourhiet},
+  journal={submitted to CMAME},
+  year={2014}
+}
+@article{ghosh2014efficient,
+  title={Efficient Implementation of Nonlinear Compact Schemes on Massively Parallel Platforms},
+  author = {Debojyoti Ghosh and Emil M. Constantinescu and Jed Brown},
+  journal={submitted to SISC},
+  note={Also preprint ANL/MCS-P5121-0414},
+  year = 2014
+}

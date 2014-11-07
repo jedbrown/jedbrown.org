@@ -15,6 +15,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 DISPLAY_CATEGORIES_ON_MENU = False
+MENUITEMS = [('Publications', '/pubs/')]
 
 PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}/index.html'
@@ -50,7 +51,7 @@ SOCIAL = [('github', 'https://github.com/jedbrown'),
 DEFAULT_PAGINATION = False
 
 PLUGINS = ['latex',
-           #'bibtex',
+           'bibtex',
            'extract_toc']
 PLUGIN_PATHS = ['/home/jed/src/pelican-plugins']
 MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
@@ -86,8 +87,16 @@ THEME = '/home/jed/src/pelican-themes/jedstrap'
 BOOTSTRAP_THEME = 'spacelab'
 PYGMENTS_STYLE = 'default'
 
-PUBLICATIONS_SRC = 'content/example.bib'
-#DIRECT_TEMPLATES = ('index', 'publications', 'tags', 'categories', 'archives')
+PUBLICATIONS_SRC = 'content/jedpub.bib'
+DIRECT_TEMPLATES = ('index', 'pubs/index', 'tags', 'archives')
+
+def latex_decode(latexsrc):
+    import codecs
+    import latexcodec
+    utf8src = codecs.decode(latexsrc, 'ulatex')
+    s = utf8src.replace('{','').replace('}','')
+    return s
+JINJA_FILTERS = dict(latex_decode=latex_decode, strip=str.strip)
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
