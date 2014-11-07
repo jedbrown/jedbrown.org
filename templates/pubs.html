@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Publications{% endblock %}
+{% block content %}
+<section id="content" class="body">
+  <h1 class="entry-title">Publications</h1>
+  {% for yeargroup in publications|groupby(1)|reverse %}
+  <h2> {{ yeargroup.grouper }} </h2>
+  <ul>
+    {% for key, year, text, bibtex, pdf, slides, poster in yeargroup.list %}
+    <p>
+      <li id="{{ key }}">{{ text }}
+        <br />
+        {% for label, target in [('PDF', pdf), ('Slides', slides), ('Poster', poster)] %}
+        {{ "[&nbsp;<a href=\"%s\">%s</a>&nbsp;]" % (target, label) if target }}
+        {% endfor %}
+        <span class="bibtex"><a href="#">[BibTeX]</a>
+          <div class="bibtex-body" style="display:none">
+            <pre>{{ bibtex }}</pre>
+          </div>
+        </span>
+      </li>
+    </p>
+{% endfor %}
+</ul>
+{% endfor %}
+</section>
+<script>
+  $('.bibtex').click(function(){
+  $('> .bibtex-body', this).toggle();
+  })
+</script>
+{% endblock %}
