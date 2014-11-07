@@ -83,7 +83,7 @@ LANDING_PAGE_ABOUT = dict(title='Jed Brown',
 <h5><a href="research">Research</a></h5>
 """ % dict(SITEURL=SITEURL))
 
-THEME = '/home/jed/src/pelican-themes/jedstrap'
+THEME = 'theme'
 BOOTSTRAP_THEME = 'spacelab'
 PYGMENTS_STYLE = 'default'
 
