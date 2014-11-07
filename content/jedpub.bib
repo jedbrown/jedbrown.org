@@ -102,7 +102,8 @@ summarize challenges and forecast opportunities.}
   journal={J. Geophys. Res},
   volume={115},
   pages={F01005},
-  year={2010}
+  year={2010},
+  doi={10.1029/2009JF001405}
 }
 @article{bueler2009shallow,
   title={{Shallow shelf approximation as a ``sliding law'' in a thermomechanically coupled ice sheet model}},
@@ -112,7 +113,9 @@ summarize challenges and forecast opportunities.}
   number={F3},
   pages={F03008},
   year={2009},
-  publisher={American Geophysical Union}
+  publisher={American Geophysical Union},
+  doi={10.1029/2008JF001179},
+  pdf={http://arxiv.org/abs/0810.3449}
 }
 @article{bueler2007est,
   title={{Exact solutions to the thermomechanically coupled shallow ice approximation: effective tools for verification}},
@@ -120,7 +123,8 @@ summarize challenges and forecast opportunities.}
   journal={J. Glaciol},
   volume={53},
   pages={499--516},
-  year={2007}
+  year={2007},
+  doi={10.3189/002214307783258396}
 }
 @article{bueler2007fcv,
   title={{Fast computation of a viscoelastic deformable Earth model for ice-sheet simulations}},
@@ -128,7 +132,7 @@ summarize challenges and forecast opportunities.}
   journal={Ann. Glaciol},
   volume={46},
   pages={97--105},
-  year={2007}
+  year={2007},
 }
 @article {bueler2005iso,
   author = {E. Bueler and C. S. Lingle and J. A. Kallen-Brown and D. N. Covey and L. N. Bowman},
@@ -138,6 +142,7 @@ summarize challenges and forecast opportunities.}
   number = {173},
   pages = {291--306},
   year = {2005},
+  doi = {10.3189/172756505781829449}
 }
 
 %% Conference
@@ -147,20 +152,21 @@ summarize challenges and forecast opportunities.}
   title={{pTatin3D}: {H}igh-Performance Methods for Long-Term Lithospheric Dynamics},
   booktitle={Proceedings of SC14: International Conference for High Performance Computing, Networking, Storage and Analysis},
   year={2014},
-  organization={ACM}
+  organization={ACM},
+  pdf = {https://jedbrown.org/files/MayBrownLePourhiet-pTatin3d-2014.pdf}
 }
 @inproceedings{knepley2013citations,
   title={Accurately Citing Software and Algorithms Used in Publications},
   author={Matthew G. Knepley and Jed Brown and Lois Curfman McInnes and Barry F. Smith},
   booktitle={Workshop towards Sustainable Software for Science: Practice and Experiences (WSSSPE)},
-  note={Preprint \url{http://dx.doi.org/10.6084/m9.figshare.785731}},
+  doi={10.6084/m9.figshare.785731},
   year={2013}
 }
 @inproceedings{brown2013runtime,
   title={Run-time extensibility: anything less is unsustainable},
   author={Jed Brown, Matthew G. Knepley, Barry F. Smith},
   booktitle={Workshop towards Sustainable Software for Science: Practice and Experiences (WSSSPE)},  
-  note={Preprint \url{http://dx.doi.org/10.6084/m9.figshare.791571}},
+  doi={10.6084/m9.figshare.791571},
   year={2013}
 }
 @inproceedings{brown2013quasinewton,
@@ -169,13 +175,14 @@ summarize challenges and forecast opportunities.}
   year      = {2013},
   booktitle = {International Conference on Mathematics and Computational Methods Applied to Nuclear Science and Engineering},
   pages     = {2554--2565},
+  pdf       = {https://jedbrown.org/files/BrownBrune-LowRankQuasiNewtonRobustJacobianLagging-2013.pdf}
 }
 @inproceedings{bkmms2012,
   author    = {J. Brown and M. G. Knepley and D. A. May and L. C. McInnes and B. F. Smith},
   title     = {Composable Linear Solvers for Multiphysics},
   booktitle = {Proceeedings of the 11th International Symposium on Parallel and Distributed Computing (ISPDC 2012)},
   year      = {2012},
-  url       = {http://doi.ieeecomputersociety.org/10.1109/ISPDC.2012.16},
+  doi       = {10.1109/ISPDC.2012.16},
   publisher = {IEEE Computer Society},
   pages     = {55--62},
 }
@@ -190,7 +197,8 @@ summarize challenges and forecast opportunities.}
   editor = {H. Sips and D. Epema and and H.-X. Lin},
   series = {Lecture Notes in Computer Science},
   publisher = {Springer},
-  keywords = {Aortic aneurysm, flow simulation, streamline diffusion FEM, indefinite matrix, parallel Krylov solver}
+  keywords = {Aortic aneurysm, flow simulation, streamline diffusion FEM, indefinite matrix, parallel Krylov solver},
+  doi = {10.1007/978-3-642-03869-3_70}
 }
 
 %% Reports
@@ -201,7 +209,8 @@ summarize challenges and forecast opportunities.}
   institution={Argonne National Laboratory},
   year = {2014},
   abstract = {Solutions to hyperbolic conservation laws are often characterized by a large range of length scales as well as discontinuities. Standard nonlinear finite-difference schemes, such as the WENO schemes, yield non- oscillatory solutions but lack the spectral resolution required to model the relevant length scales. Linear compact schemes have a high spectral resolution; however, they suffer from spurious oscillations across discontinuities and sharp gradients. Weighted nonlinear compact schemes, such as the CRWENO scheme and the hybrid compact-WENO schemes, combine the non-oscillatory nature of the WENO schemes with the high spectral resolution of the compact schemes and are thus ideal for solutions with multiple length scales and discontinuities. One example of an application area is compressible, turbulent flows. The CRWENO scheme and the hybrid compact-WENO schemes have a nonlinear, solution-dependent left-hand side and therefore require the solution of banded systems of equations at each time-integration step or stage. Application of these schemes to multiprocessor simulations requires an efficient, scalable algorithm for the solution to the banded systems. Past efforts at implementing nonlinear compact schemes for parallel simulations suffer from one or more of the following drawbacks: parallelization-induced approximations and errors, complicated and inefficient scheduling of communication and computation, significant increase in the mathematical complexity of the banded systems solver, and high communication overhead. Therefore, these algorithms do not scale well for massively parallel simulations and are inefficient compared with the corresponding standard finite-difference schemes.},
-  author = {Debojyoti Ghosh and Emil M. Constantinescu and Jed Brown}
+  author = {Debojyoti Ghosh and Emil M. Constantinescu and Jed Brown},
+  pdf={http://www.mcs.anl.gov/papers/ANL/MCS-TM-340.pdf}
 }
 @techreport{arrigo2013earthcube,
   title={{EarthCube} Modeling Workshop Results},
@@ -229,7 +238,7 @@ summarize challenges and forecast opportunities.}
   title = {User-Defined Non-Blocking Collectives Must Make Progress},
   journal = {IEEE Technical Committee on Scalable Computing},
   type = {Blog},
-  howpublished = {\url{https://www.ieeetcsc.org/activities/blog/user_defined_nonblocking_collectives_must_make_progress}},
+  url = {https://www.ieeetcsc.org/activities/blog/user_defined_nonblocking_collectives_must_make_progress},
   year = 2012
 }
 @inproceedings{adams2012exascalelibraries,
@@ -249,7 +258,8 @@ summarize challenges and forecast opportunities.}
   author={L. Ridgway Scott and Jed Brown and George W. Bergantz and Dan Cooley and Clint Dawson and Maarten de Hoop and Donald Estep and Natasha Flyer and Efi Foufoula-Georgiou and Michael Ghil and Matthew Knepley and Randall J. LeVeque and Lek-Heng Lim and Serge Prudhomme and Adrian Sandu and Frederik J. Simons and Philip B. Stark and Michael Stein and Seth Stein and Toshiro Tanimoto and Daniel Tartakovsky and Jonathan Weare and Robert Weiss and Grady B. Wright and Dave Yuen},
   institution={University of Chicago},
   number={2012-02},
-  year=2012
+  year=2012,
+  pdf={http://cs.uchicago.edu/files/tr_authentic/TR-2012-02.pdf}
 }
 @TechReport{petsc-user-ref,
   author = {Satish Balay and Shrirang Abhyankar and Mark~F. Adams and Jed Brown and Peter Brune
@@ -272,6 +282,7 @@ Computing Systems",
   address =     "Berkeley",
   year =        "2014",
   NUMBER =        {LBNL-6630E},
+  doi={10.2172/1131029}
 }
 
 %% Submitted
