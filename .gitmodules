@@ -1,0 +1,8 @@
+[submodule "pelican-plugins"]
+	path = pelican-plugins
+	url = https://github.com/getpelican/pelican-plugins
+	branch = master
+[submodule "pelican-bibtex"]
+	path = pelican-bibtex
+	url = https://github.com/vene/pelican-bibtex
+	branch = master

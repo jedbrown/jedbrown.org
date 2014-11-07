@@ -50,10 +50,10 @@ SOCIAL = [('github', 'https://github.com/jedbrown'),
 
 DEFAULT_PAGINATION = False
 
-PLUGINS = ['latex',
-           'bibtex',
+PLUGINS = ['render_math',
+           'pelican_bibtex',
            'extract_toc']
-PLUGIN_PATHS = ['/home/jed/src/pelican-plugins']
+PLUGIN_PATHS = ['./pelican-plugins', './pelican-bibtex']
 MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
 STATIC_PATHS = ['theme/images', 'images', 'files']
 
