@@ -81,6 +81,8 @@ LANDING_PAGE_ABOUT = dict(title='Jed Brown',
 
 <h5><a href="files/jed-cv.pdf">CV (pdf)</a></h5>
 <h5><a href="research">Research</a></h5>
+<h3>Teaching</h3>
+<p><a href="hpc-performance-analysis"><strong>HPC Performance Analysis</strong>: CSCI-4830-014/7000-018, Spring 2015</a></p>
 """ % dict(SITEURL=SITEURL))
 
 THEME = 'theme'
