@@ -123,7 +123,7 @@
             {% block content %}
             {% endblock %}
         </div>
-        {% if (page and not page.nosidebar) or (article and not article.nosidebar) %}
+        {% if (not page or not page.nosidebar) and (not article or not article.nosidebar) %}
         <div class="col-md-4 well well-sm" id="sidebar">
           {% include 'includes/sidebar.html' %}
         </div>
