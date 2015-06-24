@@ -61,7 +61,7 @@ LANDING_PAGE_ABOUT = dict(title='Jed Brown',
                           details=
 """
 <p>
-  <a href="mailto:jedbrown@mcs.anl.gov">jedbrown at mcs.anl.gov</a> <br />
+  <a href="mailto:jed@jedbrown.org">jed at jedbrown.org</a> <br />
 
   <strong>Assistant Computational Mathematician</strong> <br />
   <a href="http://mcs.anl.gov/research/LANS">Laboratory for Advanced Numerical Simulation</a><br />
@@ -73,12 +73,19 @@ LANDING_PAGE_ABOUT = dict(title='Jed Brown',
 </p>
 
 <p>
-  <strong>Assistant Professor Adjoint</strong> <br />
+  <strong>Assistant Professor</strong> <br />
   <a href="http://colorado.edu/cs/">Department of Computer Science</a><br />
   University of Colorado Boulder<br />
   430 UCB, Boulder, CO 80309
 </p>
 
+<h5>Awards</h5>
+<ul>
+  <li>2015 SIAM/ACM Prize in Computational Science and Engineering (PETSc team)</li>
+  <li>2014 IEEE TCSC Young Achiever</li>
+  <li>2014 SIAG/SC Junior Scientist Prize</li>
+  <li>2010 Piolet d'Or for the first ascent of Xuelian West (6422 m, China) via "The Great White Jade Heist" (with Kyle Dempster and Bruce Normand)</li>
+</ul>
 <h5><a href="files/jed-cv.pdf">CV (pdf)</a></h5>
 <h5><a href="research">Research</a></h5>
 <h3>Teaching</h3>
