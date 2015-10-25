@@ -103,7 +103,7 @@ DIRECT_TEMPLATES = ('index', 'pubs/index', 'tags', 'archives')
 def latex_decode(latexsrc):
     import codecs
     import latexcodec
-    utf8src = codecs.decode(latexsrc, 'ulatex')
+    utf8src = codecs.decode(latexsrc.encode(), 'latex+utf-8')
     s = utf8src.replace('{','').replace('}','')
     return s
 JINJA_FILTERS = dict(latex_decode=latex_decode, strip=str.strip)
