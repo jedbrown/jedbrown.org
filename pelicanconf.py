@@ -63,16 +63,6 @@ LANDING_PAGE_ABOUT = dict(title='Jed Brown',
 <p>
   <a href="mailto:jed@jedbrown.org">jed at jedbrown.org</a> <br />
 
-  <strong>Assistant Computational Mathematician</strong> <br />
-  <a href="http://mcs.anl.gov/research/LANS">Laboratory for Advanced Numerical Simulation</a><br />
-  <a href="http://mcs.anl.gov">Mathematics and Computer Science Division</a><br />
-  Argonne National Laboratory<br />
-  9700 S Cass, Bldg 240<br />
-  Lemont, IL 60439
-
-</p>
-
-<p>
   <strong>Assistant Professor</strong> <br />
   <a href="http://colorado.edu/cs/">Department of Computer Science</a><br />
   University of Colorado Boulder<br />
