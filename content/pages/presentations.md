@@ -4,11 +4,13 @@ Author: Jed Brown
 Summary: Talks and poster presentations
 
 # 2015
+* [To Thread or Not To Thread](/files/20150916-Threads.pdf), [Multi-core 5 Workshop](https://www2.cisl.ucar.edu/heterogeneous-multi-core-5-workshop/2015), NCAR, Boulder, 2015-09-16.
+* [Tradeoffs in Data Assimilation and Solver Design](/files/20150901-Olerons.pdf), [14th International Workshop on Modeling of Mantle and Lithosphere Dynamics](https://sites.google.com/site/geodynamicsxiv/) (invited), Olérons, France, 2015-09-01.
 * [In Search of Performance Versatility](/files/20150624-Versatility.pdf), [PADAL Workshop](http://padalworkshop.org), Berkeley Lab, 2015-06-24.
-* [HPGMG: Relevant Benchmarking for Scientific Computing](/files/20150525-HPGMG.pdf), [HPCSE](http://industry.it4i.cz/HPCSE2015/program.php), Czech Republic, 2015-05-25.
+* [HPGMG: Relevant Benchmarking for Scientific Computing](/files/20150525-HPGMG.pdf), [HPCSE](http://industry.it4i.cz/HPCSE2015/program.php) (invited), Czech Republic, 2015-05-25.
 * [HPGMG: Benchmarking Computers Using Multigrid](/files/20150324-HPGMG.pdf), Copper Mountain Conference on Multigrid Methods, 2015-03-24.
 * [Time Integration for Atmospheric Physics](/files/20150316-TimeIntegration.pdf), SIAM Conference on Computational Science and Engineering (CSE15), Salt Lake City, 2015-03-16.
-* [On Adaptive Methods in Heterogeneous Media](/files/20150213-AdaptHeterogeneous.pdf), High Performance and Parallel Computing for Materials Defects and Multiphase Flows, National University of Singapore, 2015-02-13.
+* [On Adaptive Methods in Heterogeneous Media](/files/20150213-AdaptHeterogeneous.pdf), High Performance and Parallel Computing for Materials Defects and Multiphase Flows (invited), National University of Singapore, 2015-02-13.
 * [Practical Multigrid Methods for Momentum Balance in Ice Sheets](/files/20150202-LIWGMultigrid.pdf), CESM Land Ice Working Group, NCAR, 2015-02-02.
 
 # 2014
