@@ -3,7 +3,13 @@ Tags: research
 Author: Jed Brown
 Summary: Talks and poster presentations
 
+# 2016
+* [Building a Community Model for Robustness and Extensibility](/files/20160303-MIMCommunity.pdf), [Melt in the Mantle](http://www.newton.ac.uk/event/mim), Isaac Newton Institute, Cambridge University, 2016-03-03.
+* [PETSc: Technical and Social Aspects of Library Development](/files/20160225-PETSc.pdf), (invited), [Scientific Software Days](http://scisoftdays.org), UT Austin, 22016-02-25.
+* [High-Performance Geometric Multigrid (HPGMG) and Quantification of Performance Versatility](/files/20160217-CISLVersatility.pdf), CISL Seminar, NCAR, Boulder, 2016-02-17.
+
 # 2015
+* [On Scaling Modes and Balancing Stochastic, Discretization, and Modeling Error](/files/20151216-AGUScaling.pdf), [American Geophysical Union Fall Meeting](https://fallmeeting.agu.org/2015/), San Francisco, CA, 2015-12-16.
 * [To Thread or Not To Thread](/files/20150916-Threads.pdf), [Multi-core 5 Workshop](https://www2.cisl.ucar.edu/heterogeneous-multi-core-5-workshop/2015), NCAR, Boulder, 2015-09-16.
 * [Tradeoffs in Data Assimilation and Solver Design](/files/20150901-Olerons.pdf), [14th International Workshop on Modeling of Mantle and Lithosphere Dynamics](https://sites.google.com/site/geodynamicsxiv/) (invited), Olérons, France, 2015-09-01.
 * [In Search of Performance Versatility](/files/20150624-Versatility.pdf), [PADAL Workshop](http://padalworkshop.org), Berkeley Lab, 2015-06-24.
