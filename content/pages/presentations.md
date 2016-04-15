@@ -4,6 +4,7 @@ Author: Jed Brown
 Summary: Talks and poster presentations
 
 # 2016
+* [Threading Tradeoffs in Domain Decomposition](/files/20160413-SIAMThreads.pdf), [SIAM Parallel Processing](http://siam.org/meetings/pp16), Paris, 2016-04-13.
 * [Building a Community Model for Robustness and Extensibility](/files/20160303-MIMCommunity.pdf), [Melt in the Mantle](http://www.newton.ac.uk/event/mim), Isaac Newton Institute, Cambridge University, 2016-03-03.
 * [PETSc: Technical and Social Aspects of Library Development](/files/20160225-PETSc.pdf), (invited), [Scientific Software Days](http://scisoftdays.org), UT Austin, 22016-02-25.
 * [High-Performance Geometric Multigrid (HPGMG) and Quantification of Performance Versatility](/files/20160217-CISLVersatility.pdf), CISL Seminar, NCAR, Boulder, 2016-02-17.
