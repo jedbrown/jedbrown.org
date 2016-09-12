@@ -81,6 +81,10 @@ LANDING_PAGE_ABOUT = dict(title='Jed Brown',
 <h3>Teaching</h3>
 <p><a href="topics-in-cse"><strong>Topics in Computational Science and Engineering</strong>: CSCI-4830-008/7000-014, Fall 2015</a></p>
 <p><a href="hpc-performance-analysis"><strong>HPC Performance Analysis</strong>: CSCI-4830-014/7000-018, Spring 2015</a></p>
+
+<h3>Identity</h3>
+<p><a href="files/jed-pgp.asc">PGP Public Key</a> to verify my signed mail or encrypt to me.</p>
+<p><a href="files/jed-id_rsa.pub">SSH Public Key</a> to grant me login access, git push, etc.</p>
 """ % dict(SITEURL=SITEURL))
 
 THEME = 'theme'
