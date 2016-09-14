@@ -4,6 +4,8 @@ Author: Jed Brown
 Summary: Talks and poster presentations
 
 # 2016
+* [Design Considerations for Latency and Throughput on KNL](/files/20160914-LatencyThroughput.pdf), [MultiCore 6](https://www2.cisl.ucar.edu/events/workshops/heterogeneous-multi-core-workshop/2016/2016-multicore-6-workshop), NCAR, 2016-09-14.
+* [Higher Standards on the Control of Numerical Accuracy](/files/20160912-NumericalAccuracy.pdf), [AXICCS](http://www.csm.ornl.gov/workshops/AXICCS/workshop.html), Rockville, MD, 2016-09-12.
 * [Threading Tradeoffs in Domain Decomposition](/files/20160413-SIAMThreads.pdf), [SIAM Parallel Processing](http://siam.org/meetings/pp16), Paris, 2016-04-13.
 * [Building a Community Model for Robustness and Extensibility](/files/20160303-MIMCommunity.pdf), [Melt in the Mantle](http://www.newton.ac.uk/event/mim), Isaac Newton Institute, Cambridge University, 2016-03-03.
 * [PETSc: Technical and Social Aspects of Library Development](/files/20160225-PETSc.pdf), (invited), [Scientific Software Days](http://scisoftdays.org), UT Austin, 22016-02-25.
