@@ -79,6 +79,8 @@ LANDING_PAGE_ABOUT = dict(title='Jed Brown',
 <h5><a href="files/jed-cv.pdf">CV (pdf)</a></h5>
 <h5><a href="research">Research</a></h5>
 <h3>Teaching</h3>
+<p><a href="//github.com/cucs-hpla/class"><strong>High-Performance Linear Algebra</strong>: CSCI-4830/7000, Spring 2017</a></p>
+<p><a href="//github.com/jedbrown/numerical-computation"><strong>Numerical Computation</strong>: CSCI-3656, Fall 2016</a></p>
 <p><a href="topics-in-cse"><strong>Topics in Computational Science and Engineering</strong>: CSCI-4830-008/7000-014, Fall 2015</a></p>
 <p><a href="hpc-performance-analysis"><strong>HPC Performance Analysis</strong>: CSCI-4830-014/7000-018, Spring 2015</a></p>
 
