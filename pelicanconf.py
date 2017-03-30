@@ -15,7 +15,8 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 DISPLAY_CATEGORIES_ON_MENU = False
-MENUITEMS = [('Publications', '/pubs/')]
+MENUITEMS = [('Publications', '/pubs/'),
+             ('Presentations', '/presentations/')]
 
 PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}/index.html'

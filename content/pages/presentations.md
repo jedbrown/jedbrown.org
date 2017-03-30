@@ -4,6 +4,7 @@ Author: Jed Brown
 Summary: Talks and poster presentations
 
 # 2017
+* [On nonlinear adaptivity with heterogeneity](/files/20170330-AdaptHeterogeneous.pdf), [Copper Mountain Multigrid Conference](http://grandmaster.colorado.edu/~copper/2017/), 2017-03-30.
 * [Community building through software design](/files/20170221-SI2Community.pdf), SI2 Meeting, 2017-02-21.
 * [On nonlinear adaptivity with heterogeneity](/files/20170209-AdaptHeterogeneous.pdf), [DD24](http://www.ddm.org/dd24/), Svalbard, 2017-02-09.
 # 2016
