@@ -4,9 +4,10 @@ Author: Jed Brown
 Summary: Talks and poster presentations
 
 # 2017
+* [PETSc Tutorial](/files/201705-MUNPETSc.pdf), Memorial University, 2017-05-29/30/31.
 * [On nonlinear adaptivity with heterogeneity](/files/20170330-AdaptHeterogeneous.pdf), [Copper Mountain Multigrid Conference](http://grandmaster.colorado.edu/~copper/2017/), 2017-03-30.
 * [Community building through software design](/files/20170221-SI2Community.pdf), SI2 Meeting, 2017-02-21.
-* [On nonlinear adaptivity with heterogeneity](/files/20170209-AdaptHeterogeneous.pdf), [DD24](http://www.ddm.org/dd24/), Svalbard, 2017-02-09.
+* [On nonlinear adaptivity with heterogeneity](/files/20170209-AdaptHeterogeneous.pdf), [DD24](http://www.ddm.org/dd24/) (invited), Svalbard, 2017-02-09.
 # 2016
 * [Design Considerations for Latency and Throughput on KNL](/files/20160914-LatencyThroughput.pdf), [MultiCore 6](https://www2.cisl.ucar.edu/events/workshops/heterogeneous-multi-core-workshop/2016/2016-multicore-6-workshop), NCAR, 2016-09-14.
 * [Higher Standards on the Control of Numerical Accuracy](/files/20160912-NumericalAccuracy.pdf), [AXICCS](http://www.csm.ornl.gov/workshops/AXICCS/workshop.html), Rockville, MD, 2016-09-12.
