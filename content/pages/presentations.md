@@ -4,6 +4,8 @@ Author: Jed Brown
 Summary: Talks and poster presentations
 
 # 2017
+* [Practical and Efficient Time Integration and Kronecker Product Solvers](/files/20170801-FastKronecker.pdf), Preconditioning 2017, Vancouver, Canada, 2017-08-01.
+* [PETSc Solvers Tutorial](/files/20170614-PETScSolvers.pdf), [PETSc User Meeting](https://www.mcs.anl.gov/petsc/meetings/2017/), Boulder, CO, 2017-06-14.
 * [PETSc Tutorial](/files/201705-MUNPETSc.pdf), Memorial University, 2017-05-29/30/31.
 * [On nonlinear adaptivity with heterogeneity](/files/20170330-AdaptHeterogeneous.pdf), [Copper Mountain Multigrid Conference](http://grandmaster.colorado.edu/~copper/2017/), 2017-03-30.
 * [Community building through software design](/files/20170221-SI2Community.pdf), SI2 Meeting, 2017-02-21.
