@@ -87,7 +87,7 @@ LANDING_PAGE_ABOUT = dict(title='Jed Brown',
 
 <h3>Identity</h3>
 <p><a href="files/jed-pgp.asc">PGP Public Key</a> to verify my signed mail or encrypt to me.</p>
-<p><a href="files/jed-id_rsa.pub">SSH Public Key</a> to grant me login access, git push, etc.</p>
+<p><a href="files/jed-id_ed25519.pub">SSH Public Key</a> to grant me login access, git push, etc.</p>
 """ % dict(SITEURL=SITEURL))
 
 THEME = 'theme'
