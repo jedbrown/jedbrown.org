@@ -34,6 +34,8 @@ PORTRAIT_ALT = "Jed's head"
 
 SOFTWARE = [dict(name='PETSc', url='http://mcs.anl.gov/petsc',
                  description='Portable Extensible Toolkit for Scientific computing: an library of parallel algebraic solvers and time integrators'),
+            dict(name='CEED', url='http://ceed.exascaleproject.org/',
+                 description="Center for Efficient Exascale Discretization"),
             dict(name='PISM', url='http://pism-docs.org',
                  description='Parallel Ice Sheet Model.'),
             dict(name='Dohp', url='https://github.com/jedbrown/dohp',
@@ -46,7 +48,8 @@ SOFTWARE = [dict(name='PETSc', url='http://mcs.anl.gov/petsc',
 SOCIAL = [('github', 'https://github.com/jedbrown'),
           ('bitbucket', 'https://bitbucket.org/jedbrown'),
           ('scicomp.stackexchange', 'http://scicomp.stackexchange.com/users/119/jed-brown'),
-          ('diaspora', 'https://diasp.org/u/jed'),
+          ('twitter', 'https://twitter.com/five9a2'),
+          #('diaspora', 'https://diasp.org/u/jed'),
           ('scholar', 'http://scholar.google.com/citations?hl=en&user=x_9_NGwAAAAJ')]
 
 DEFAULT_PAGINATION = False
@@ -70,6 +73,29 @@ LANDING_PAGE_ABOUT = dict(title='Jed Brown',
   430 UCB, Boulder, CO 80309
 </p>
 
+<h5><a href="research">Research</a></h5>
+<p>Our research is in fast algorithms and robust community software for physically-based modeling, prediction, inference, and design.</p>
+
+<h5>Research Group</h5>
+<ul>
+  <li>Tristan Konolige (Computer Science PhD)</li>
+  <li>Sarah Gage (Computer Science PhD)</li>
+  <li>Jeremy Thompson (Applied Math PhD)</li>
+  <li>Reagan Cronin (Computer Science PhD)</li>
+  <li>Matthew Normile (Aerospace Engineering BS+MS)</li>
+  <li>Valeria Barra (Postdoc)</li>
+</ul>
+
+<h5>Alumni</h5>
+<ul>
+  <li><a href="https://www.flux.utah.edu/profile/dmdu">Dmitry Duplyakin</a> (2017 PhD Computer Science, now at University of Utah)</li>
+</ul>
+
+<h5>Editorial Board</h5>
+<ul>
+  <li>Associate Editor for <a href="http://joss.theoj.org/">Journal of Open Source Software (JOSS)</a></li>
+</ul>
+
 <h5>Awards</h5>
 <ul>
   <li>2015 SIAM/ACM Prize in Computational Science and Engineering (PETSc team)</li>
@@ -78,8 +104,10 @@ LANDING_PAGE_ABOUT = dict(title='Jed Brown',
   <li>2010 Piolet d'Or for the first ascent of Xuelian West (6422 m, China) via "The Great White Jade Heist" (with Kyle Dempster and Bruce Normand)</li>
 </ul>
 <h5><a href="files/jed-cv.pdf">CV (pdf)</a></h5>
-<h5><a href="research">Research</a></h5>
 <h3>Teaching</h3>
+<p><a href="//github.com/cucs-numpde/numpde"><strong>Numerical Solution of Partial Differential Equations</strong>: CSCI-5636, Fall 2018</a></p>
+<p><a href="//github.com/jedbrown/csci-3656"><strong>Numerical Computation</strong>: CSCI-3656, Spring 2018</a></p>
+<p><a href="//github.com/cucs-numpde/numpde-fall2017"><strong>Numerical Solution of Partial Differential Equations</strong>: CSCI-5636, Fall 2017</a></p>
 <p><a href="//github.com/cucs-hpla/class"><strong>High-Performance Linear Algebra</strong>: CSCI-4830/7000, Spring 2017</a></p>
 <p><a href="//github.com/jedbrown/numerical-computation"><strong>Numerical Computation</strong>: CSCI-3656, Fall 2016</a></p>
 <p><a href="topics-in-cse"><strong>Topics in Computational Science and Engineering</strong>: CSCI-4830-008/7000-014, Fall 2015</a></p>
