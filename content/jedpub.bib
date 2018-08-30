@@ -1,5 +1,19 @@
 %% Journal articles
-@article{adams2017landau,
+@article{abhyankar2018petscts,
+  title={{PETSc/TS}: {A} Modern Scalable {ODE/DAE} Solver Library},
+  author={Shrirang Abhyankar and Jed Brown and Emil M. Constantinescu and Debojyoti Ghosh and
+Barry F. Smith and Hong Zhang},
+  journal={ACM Transactions on Mathematical Software (TOMS)},
+  year={2018 (submitted)}
+}
+@article{brown2018lfabddc,
+  title={Local {F}ourier analysis of {BDDC}-like algorithms},
+  author={Jed Brown and Yunhui He and Scott MacLachlan},
+  journal={SIAM Journal on Scientific Computing},
+  publisher={SIAM},
+  year={2018 (submitted)}
+}
+@article{AdamsHirvijokiKnepleyBrownIsaacMills2017,
   title={Landau Collision Integral Solver with Adaptive Mesh Refinement on Emerging Architectures},
   author={Adams, Mark F and Hirvijoki, Eero and Knepley, Matthew G and Brown, Jed and Isaac, Tobin and Mills, Richard},
   journal={SIAM Journal on Scientific Computing},
@@ -10,7 +24,8 @@
   publisher={SIAM},
   doi={10.1137/17M1118828},
   archivePrefix={arXiv},
-  eprint={1702.08880}
+  eprint={1702.08880},
+  pdf={https://arxiv.org/pdf/1702.08880.pdf}
 }
 @article{AdamsBrownKnepleySamtaney2016,
   title   = {Segmental Refinement: A Multigrid Technique for Data Locality},
@@ -201,28 +216,33 @@ summarize challenges and forecast opportunities.}
 %% Conference
 @inproceedings{konolige2018parallel,
   title={A Parallel Solver for Graph {L}aplacians},
-  author={Tristan Konolige and Jed Brown},
+  author={Tristan Konolige* and Jed Brown},
   booktitle={Proceedings of the Platform for Advanced Scientific Computing (PASC)},
   doi={10.1145/3218176.3218227},
   note={Best Paper Award},
   archivePrefix={arXiv},
   eprint={1705.06266},
-  year={2018}
+  year={2018},
+  pdf={https://arxiv.org/pdf/1705.06266.pdf}
 }
 @inproceedings{duplyakin2018memory,
-    author      = "Dmitry Duplyakin and Jed Brown and Donna Calhoun",
-    title       = "Evaluating Active Learning with Cost and Memory Awareness",
-    booktitle   = "Proceedings of the International Parallel and Distributed Processing Symposium (IPDPS)",
-    year        = {2018},
-    pdf         = {https://jedbrown.org/files/DuplyakinBrownCalhoun-ActiveLearningCostMemoryAware-2018.pdf}
+  title={Evaluating Active Learning with Cost and Memory Awareness},
+  author={Dmitry Duplyakin* and Jed Brown and Donna Calhoun},
+  booktitle={2018 IEEE International Parallel and Distributed Processing Symposium (IPDPS)},
+  pages={214--223},
+  year={2018},
+  organization={IEEE},
+  note={Acceptance Rate 24.4\%},
+  pdf={https://jedbrown.org/files/DuplyakinBrownCalhoun-ActiveLearningCostMemoryAware-2018.pdf}
 }
 @InProceedings{duplyakin2016active,
-    author      = "Dmitry Duplyakin and Jed Brown and Robert Ricci",
+    author      = "Dmitry Duplyakin* and Jed Brown and Robert Ricci",
     title       = "Active Learning in Performance Analysis",
     booktitle   = "Proceedings of the IEEE Cluster Conference",
     year        = 2016,
     month       = Sep,
     url         = "http://www.flux.utah.edu/paper/duplyakin-cluster16",
+    note={Acceptance Rate 24.1\%},
     pdf         = {https://jedbrown.org/files/DuplyakinBrownRicci-ActiveLearningPerformanceAnalysis-2016.pdf}
 }
 @inproceedings{may2014ptatin,
@@ -231,6 +251,7 @@ summarize challenges and forecast opportunities.}
   booktitle={Proceedings of SC14: International Conference for High Performance Computing, Networking, Storage and Analysis},
   year={2014},
   organization={ACM},
+  note={Acceptance Rate 21\%},
   pdf = {https://jedbrown.org/files/MayBrownLePourhiet-pTatin3d-2014.pdf}
 }
 @inproceedings{knepley2013citations,
@@ -280,13 +301,30 @@ summarize challenges and forecast opportunities.}
 }
 
 %% Reports
-
+@article{williams2018hpgmg,
+  author = {Samual Williams and Mark F. Adams and Jed Brown},
+  title = {High-Performance Geometric Multigrid: {A}n {HPC} Performance Benchmark},
+  journal = {SIAM News},
+  volume = 51,
+  number = 3,
+  year = 2018,
+  url={https://sinews.siam.org/Details-Page/the-high-performance-geometric-multigrid-an-hpc-performance-benchmark}
+}
 @misc{brown2016standards,
   title = {Higher Standards on the Control of Numerical Accuracy},
   author = {Jed Brown},
   pdf = {https://jedbrown.org/files/Brown-HigherStandardsNumericalAccuracy-2015.pdf},
   note = {Whitepaper accepted to the DOE Advancing X-cutting Ideas for Computational Climate Science (AXICCS)},
   year = 2016
+}
+@article{petsc-extensibility2016,
+  author = {M. Knepley and D. A. May and J. Brown and B. Smith}, 
+  title = {Extensibility in {PETSc}},
+  journal = {SIAM News},
+  volume=49,
+  number=9,
+  year=2016,
+  url = {https://sinews.siam.org/Details-Page/extensibility-in-petsc}
 }
 @misc{KnepleyBrownMcInnesSmithRuppAdams2015,
   title  = {Exascale Computing without Threads},
@@ -343,12 +381,31 @@ summarize challenges and forecast opportunities.}
   year={2013},
   organization={DOE Office of Advanced Scientific Computing Research}
 }
-@inproceedings{adams2013lowcomm,
-  title={Low-communication techniques for extreme-scale multilevel solvers},
-  author={Mark F. Adams and Jed Brown and Matt Knepley},
-  booktitle={Exascale Mathematics Workshop, Aug 21--22, Washington, DC},
-  year={2013},
-  organization={DOE Office of Advanced Scientific Computing Research}
+@inproceedings{AdamsBrownKnepley2013,
+    author       = {Mark F. Adams and Jed Brown and Matthew G. Knepley},
+    title        = {Low-communication techniques for extreme-scale multilevel solvers},
+    booktitle    = {Exascale Mathematics Workshop, Aug 21--22, Washington, DC},
+    organization = {DOE Office of Advanced Scientific Computing Research},
+    year         = {2013}
+}
+@article{KnepleyBrownRuppSmith13,
+  author   = {{Knepley}, M.~G. and {Brown}, J. and {Rupp}, K. and {Smith}, B.~F.},
+  title    = {Achieving High Performance with Unified Residual Evaluation},
+  journal  = {ArXiv e-prints},
+  eprint   = {1309.1204},
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.MS",
+  keywords = {Computer Science - Mathematical Software, Computer Science - Computational Engineering, Finance, and Science},
+  year     = 2013,
+  month    = sep,
+  adsurl   = {http://adsabs.harvard.edu/abs/2013arXiv1309.1204K},
+  adsnote  = {Provided by the SAO/NASA Astrophysics Data System}
+}
+@misc{Brown13,
+  author = {J. Brown},
+  title = {Scalable Repository Workflows},
+  note = {Whitepaper submitted to DOE Workshop on Software Productivity for Extreme-Scale Science, available via \url{http://www.orau.gov/swproductivity2014/papers.htm}},
+  year = 2013
 }
 @article{brown2012nonblockingieee,
   author={Jed Brown},
@@ -363,6 +420,16 @@ summarize challenges and forecast opportunities.}
   title = {Exascale Programming Models Must Vigorously Enable Libraries},
   booktitle = {DOE Exascale Research Conference},
   year = 2012
+}
+@techreport{smcabbkz2012,
+  author = "Barry Smith and Lois Curfman McInnes and Emil Constantinescu and Mark Adams and
+            Satish Balay and Jed Brown and Matthew Knepley and Hong Zhang",
+  title = "{PETSc's} software strategy for the design space of composable extreme-scale solvers",
+  institution = "Argonne National Laboratory",
+  type = "Preprint",
+  note = "{DOE} Exascale Research Conference, April 16-18, 2012, Portland, OR",
+  year = 2012,
+  number = "ANL/MCS-P2059-0312"
 }
 @inproceedings{anitescu2012exascale,
   author = {Mihai Anitescu and Jed Brown and Paul Fischer and Sven Leyffer and Lois Curfman McInnes and Todd Munson and Barry F. Smith},

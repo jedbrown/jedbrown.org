@@ -3,13 +3,17 @@ Tags: research
 Author: Jed Brown
 Summary: Talks and poster presentations
 
+# 2018
+* [On performance portability for unstructured high-order finite element computations](/files/20180709-SIAMPerformancePortability.pdf), [SIAM Annual Meeting](https://www.siam.org/conferences/CM/Main/an18), Portland, OR, 2018-07-09.
+* [Active learning for cost-aware model reduction](/files/20180327-ActiveLearning.pdf), [Copper Mountain Conference on Iterative Methods](http://grandmaster.colorado.edu/copper/2018/index.html), 2018-03-27.
+
 # 2017
-* [Practical and Efficient Time Integration and Kronecker Product Solvers](/files/20170930-FastKronecker.pdf), [SIAM Central States Section](http://siamcentral2017.colostate.edu/schedule.html), Fort Collins, CO, 2017-09-30.
+* [Practical and efficient time integration and Kronecker product solvers](/files/20170930-FastKronecker.pdf), [SIAM Central States Section](http://siamcentral2017.colostate.edu/schedule.html), Fort Collins, CO, 2017-09-30.
 * [Center for Efficient Exascale Discretization](/files/20170928-CEEDMulticore.pdf), [Multicore 7 Workshop](https://www2.cisl.ucar.edu/events/workshops/multicore-workshop/2017/2017-multicore-7-workshop-agenda) (invited/plenary), NCAR, Boulder, CO, 2017-09-28.
-* [Practical and Efficient Time Integration and Kronecker Product Solvers](/files/20170801-FastKronecker.pdf), [Preconditioning 2017](http://www.cs.ubc.ca/~greif/precon17/) (invited/plenary), Vancouver, Canada, 2017-08-01.
+* [Practical and efficient time integration and Kronecker product solvers](/files/20170801-FastKronecker.pdf), [Preconditioning 2017](http://www.cs.ubc.ca/~greif/precon17/) (invited/plenary), Vancouver, Canada, 2017-08-01.
 * [PETSc Solvers Tutorial](/files/20170614-PETScSolvers.pdf), [PETSc User Meeting](https://www.mcs.anl.gov/petsc/meetings/2017/), Boulder, CO, 2017-06-14.
 * [PETSc Tutorial](/files/201705-MUNPETSc.pdf), Memorial University, 2017-05-29/30/31.
-* [On nonlinear adaptivity with heterogeneity](/files/20170330-AdaptHeterogeneous.pdf), [Copper Mountain Multigrid Conference](http://grandmaster.colorado.edu/~copper/2017/), 2017-03-30.
+* [On nonlinear adaptivity with heterogeneity](/files/20170330-AdaptHeterogeneous.pdf), [Copper Mountain Conference on Multigrid Methods](http://grandmaster.colorado.edu/~copper/2017/), 2017-03-30.
 * [Community building through software design](/files/20170221-SI2Community.pdf), SI2 Meeting (invited/plenary), 2017-02-21.
 * [On nonlinear adaptivity with heterogeneity](/files/20170209-AdaptHeterogeneous.pdf), [DD24](http://www.ddm.org/dd24/) (invited/plenary), Svalbard, 2017-02-09.
 # 2016
