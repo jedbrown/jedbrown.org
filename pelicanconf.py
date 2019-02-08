@@ -83,7 +83,7 @@ LANDING_PAGE_ABOUT = dict(title='Jed Brown',
   <li>Jeremy Thompson (Applied Math PhD)</li>
   <li>Reagan Cronin (Computer Science PhD)</li>
   <li>Matthew Normile (Aerospace Engineering BS+MS)</li>
-  <li>Valeria Barra (Postdoc)</li>
+  <li><a href="https://csel.cs.colorado.edu/~vaba3353/">Valeria Barra</a> (Postdoc)</li>
 </ul>
 
 <h5>Alumni</h5>

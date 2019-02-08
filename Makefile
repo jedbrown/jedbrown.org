@@ -12,8 +12,8 @@ FTP_HOST=localhost
 FTP_USER=anonymous
 FTP_TARGET_DIR=/
 
-SSH_HOST=do.jedbrown.org
-SSH_PORT=2234
+SSH_HOST=jedbrown.org
+SSH_PORT=22
 SSH_USER=http-publish
 SSH_TARGET_DIR=/home/http-publish/jedbrown.org
 

@@ -44,7 +44,7 @@ Summary: Talks and poster presentations
 * [Can Implicit Integrators Have _Less_ Data Motion Than Explicit?](/files/20141110-ImplicitComm.pdf), [$[HPC]^3$ Workshop](http://numerics.kaust.edu.sa/hpc3-2014/), KAUST, 2014-11-10.
 * [HPGMG: A New Benchmarking Proposal](/files/20141110-HPGMG.pdf), [$[HPC]^3$ Workshop](http://numerics.kaust.edu.sa/hpc3-2014/) (invited/plenary), KAUST, 2014-11-10.
 * [Exploiting Structure with Implicit Methods](/files/20141031-Structure.pdf), UC Merced Colloquium, 2014-10-31.
-* [Intro to Parallel Algebraic Solvers using PETSc](/files/20141031-PETSc), UC Merced Tutorial, 2014-10-31.
+* [Intro to Parallel Algebraic Solvers using PETSc](/files/20141031-PETSc.pdf), UC Merced Tutorial, 2014-10-31.
 * [On Reducing Communication and Improving Adaptivity in Nonlinear Multigrid Methods](/files/20141003-CUBoulder.pdf), CU Boulder Applied Math Colloquium, 2014-10-03.
 * [Efficient Implicitness: Latency-Throughput and Cache-Vectorization Tradeoffs](/files/20140917-EfficientImplicitness.pdf), Heterogeneous Multi-Core workshop, NCAR, 2014-09-17.
 * [Opportunities for Reducing Communication and Improving Adaptivity in Nonlinear Multigrid Methods](/files/20140915-UCDenver.pdf), UC Denver Computational Colloquium, 2014-09-15.
