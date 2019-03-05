@@ -3,6 +3,10 @@ Tags: research
 Author: Jed Brown
 Summary: Talks and poster presentations
 
+# 2019
+* [PETSc Tutorial](/files/20190226-PETScTutorial.pdf), [SIAM CSE](https://www.siam.org/conferences/CM/P/PA/cse19-program-abstracts), Spokane, WA, 2019-02-26.
+* [Library Interface Design and Performance Portability](/files/20190225-PerfPortability.pdf), [SIAM CSE](https://www.siam.org/conferences/CM/P/PA/cse19-program-abstracts), Spokane, WA, 2019-02-25.
+
 # 2018
 * [On performance portability for unstructured high-order finite element computations](/files/20180709-SIAMPerformancePortability.pdf), [SIAM Annual Meeting](https://www.siam.org/conferences/CM/Main/an18), Portland, OR, 2018-07-09.
 * [Active learning for cost-aware model reduction](/files/20180327-ActiveLearning.pdf), [Copper Mountain Conference on Iterative Methods](http://grandmaster.colorado.edu/copper/2018/index.html), 2018-03-27.
