@@ -82,13 +82,16 @@ LANDING_PAGE_ABOUT = dict(title='Jed Brown',
   <li>Sarah Gage (Computer Science PhD)</li>
   <li>Jeremy Thompson (Applied Math PhD)</li>
   <li>Reagan Cronin (Computer Science PhD)</li>
-  <li>Matthew Normile (Aerospace Engineering BS+MS)</li>
+  <li>Leila Ghaffari (Computer Science PhD)</li>
+  <li>Mike McCabe (Computer Science PhD)</li>
+  <li>Rezgar Shakeri (Civil Engineering PhD)</li>
   <li><a href="https://csel.cs.colorado.edu/~vaba3353/">Valeria Barra</a> (Postdoc)</li>
 </ul>
 
 <h5>Alumni</h5>
 <ul>
   <li><a href="https://www.flux.utah.edu/profile/dmdu">Dmitry Duplyakin</a> (2017 PhD Computer Science, now at University of Utah)</li>
+  <li>Matthew Normile (Aerospace Engineering BS+MS)</li>
 </ul>
 
 <h5>Editorial Board</h5>
@@ -105,6 +108,9 @@ LANDING_PAGE_ABOUT = dict(title='Jed Brown',
 </ul>
 <h5><a href="files/jed-cv.pdf">CV (pdf)</a></h5>
 <h3>Teaching</h3>
+<p><a href="//github.com/cu-numcomp/numcomp-class/"><strong>Numerical Computation</strong>: CSCI-3656, Spring 2020</a></p>
+<p><a href="//cucs-hpsc.github.io/fall2019/"><strong>High Performance Scientific Computing</strong>: CSCI-5576/4576, Fall 2019</a></p>
+<p><a href="//github.com/cu-numcomp/numcomp-class-spring19/"><strong>Numerical Computation</strong>: CSCI-3656, Spring 2019</a></p>
 <p><a href="//github.com/cucs-numpde/numpde"><strong>Numerical Solution of Partial Differential Equations</strong>: CSCI-5636, Fall 2018</a></p>
 <p><a href="//github.com/jedbrown/csci-3656"><strong>Numerical Computation</strong>: CSCI-3656, Spring 2018</a></p>
 <p><a href="//github.com/cucs-numpde/numpde-fall2017"><strong>Numerical Solution of Partial Differential Equations</strong>: CSCI-5636, Fall 2017</a></p>

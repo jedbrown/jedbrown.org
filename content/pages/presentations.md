@@ -4,6 +4,13 @@ Author: Jed Brown
 Summary: Talks and poster presentations
 
 # 2019
+* Efficient Wave Propagation in PyLith Using libCEED, American Geophysical Union, San Francisco, CA, 2019-12-13.
+* [Developing a Terrestrial Dynamical Core for E3SM](/slides/20190926-TDycore.html), [Multicore-9](https://www2.cisl.ucar.edu/events/workshops/multicore-workshop/2019/2019-multicore-9-workshop), NCAR, Boulder, 2019-09-26.
+* [Algorithms, architectures, and community for high-resolution climate modeling](/files/20190822-Latsis.pdf), (invited/plenary), [Latsis Symposium](https://latsis2019.ethz.ch/programme/schedule.html), ETH Zürich, Switzerland, 2019-08-22.
+* [CEED Software Thrust and libCEED](/files/20190806-CEEDSoftware.pdf), [CEED Annual Meeting](https://ceed.exascaleproject.org/ceed3am/), Blacksburg, VA, 2019-08-06.
+* [On time integration for strong scalability](/files/20190606-StrongTime.pdf), [PETSc User Meeting](https://www.mcs.anl.gov/petsc/meetings/2019/), Atlanta, GA, 2019-06-06.
+* [PETSc TS tutorial/hands-on](https://jedbrown.org/slides/20190605-TS.html), [PETSc User Meeting](https://www.mcs.anl.gov/petsc/meetings/2019/), Atlanta, GA, 2019-06-05.
+* [JOSS: The Journal of Open Source Software](/slides/20190521-JOSS.html), (invited/plenary), [CSDMS Annual Meeting](https://csdms.colorado.edu/wiki/Form:Annualmeeting2019), Boulder, CO, 2019-05-21.
 * [PETSc Tutorial](/files/20190226-PETScTutorial.pdf), [SIAM CSE](https://www.siam.org/conferences/CM/P/PA/cse19-program-abstracts), Spokane, WA, 2019-02-26.
 * [Library Interface Design and Performance Portability](/files/20190225-PerfPortability.pdf), [SIAM CSE](https://www.siam.org/conferences/CM/P/PA/cse19-program-abstracts), Spokane, WA, 2019-02-25.
 

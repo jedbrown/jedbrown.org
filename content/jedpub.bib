@@ -1,17 +1,36 @@
 %% Journal articles
-@article{abhyankar2018petscts,
+@misc{abhyankar2018petscts,
   title={{PETSc/TS}: {A} Modern Scalable {ODE/DAE} Solver Library},
   author={Shrirang Abhyankar and Jed Brown and Emil M. Constantinescu and Debojyoti Ghosh and
 Barry F. Smith and Hong Zhang},
-  journal={ACM Transactions on Mathematical Software (TOMS)},
-  year={2018 (submitted)}
+  year={2018}
 }
-@article{brown2018lfabddc,
+@article{brown2020tuning,
+  title={Tuning Multigrid Methods with Robust Optimization},
+  author={Brown, Jed and He, Yunhui and MacLachlan, Scott and Menickelly, Matt and Wild, Stefan M},
+  journal={Submitted to SISC},
+  archivePrefix={arXiv},
+  eprint={2001.00887},
+  year={2020 (submitted)}
+}
+@article{fischer2020scalability,
+  title={Scalability of High-Performance {PDE} Solvers},
+  author={Fischer, Paul and Min, Misun and Rathnayake, Thilina and Dutta, Som and Kolev, Tzanio and Dobrev, Veselin and Camier, Jean-Sylvain and Kronbichler, Martin and Warburton, Tim and Świrydowicz, Kasia and Brown, Jed},
+  journal={International Journal of High Performance Computing Applications},
+  publisher={SAGE Publications},
+  year={2020 (accepted)},
+}
+@article{brown2019lfabddc,
   title={Local {F}ourier analysis of {BDDC}-like algorithms},
   author={Jed Brown and Yunhui He and Scott MacLachlan},
   journal={SIAM Journal on Scientific Computing},
+  volume={41},
+  issue=5,
+  pages={S346--S369},
   publisher={SIAM},
-  year={2018 (submitted)}
+  year={2019},
+  doi={10.1137/18M1191373},
+  pdf={https://jedbrown.org/files/BrownHeMacLachlan-LocalFourierAnalysisOfBDDCAlgorithms-2019.pdf},
 }
 @article{AdamsHirvijokiKnepleyBrownIsaacMills2017,
   title={Landau Collision Integral Solver with Adaptive Mesh Refinement on Emerging Architectures},
@@ -305,6 +324,117 @@ summarize challenges and forecast opportunities.}
 }
 
 %% Reports
+@misc{tomov_stanimire_2019_3477618,
+  author       = {Tomov, Stanimire and
+                  Abdelfattah, Ahmad and
+                  Barra, Valeria and
+                  Beams, Natalie and
+                  Brown, Jed and
+                  Camier, Jean-Sylvain and
+                  Dobrev, Veselin and
+                  Dongarra, Jack and
+                  Dudouit, Yohann and
+                  Fischer, Paul and
+                  Karakus, Ali and
+                  Kerkemeier, Stefan and
+                  Kolev, Tzanio and
+                  Lan, YuHsiang and
+                  Merzari, Elia and
+                  Min, Misun and
+                  Obabko, Aleks and
+                  Parker, Scott and
+                  Ratnayaka, Thilina and
+                  Thompson, Jeremy and
+                  Tomboulides, Ananias and
+                  Tomov, Vladimir and
+                  Warburton, Tim},
+  title        = {{CEED ECP Milestone Report: Performance tuning of 
+                   CEED software and 1st and 2nd wave apps}},
+  month        = oct,
+  year         = 2019,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.3477618},
+  url          = {https://doi.org/10.5281/zenodo.3477618}
+}
+@misc{shephard_mark_2019_3336420,
+  author       = {Shephard, Mark and
+                  Barra, Valeria and
+                  Brown, Jed and
+                  Camier, Jean-Sylvain and
+                  Dudouit, Yohan and
+                  Fischer, Paul and
+                  Kolev, Tzanio and
+                  Medina, David and
+                  Min, Misun and
+                  Smith, Cameron and
+                  Siboni, Morteza H. and
+                  Thompson, Jeremy and
+                  Warburton, Tim},
+  title        = {{CEED ECP Milestone Report: Improved Support for 
+                   Parallel Adaptive Simulation in CEED}},
+  month        = jul,
+  year         = 2019,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.3336420},
+  url          = {https://doi.org/10.5281/zenodo.3336420}
+}
+@misc{brown_jed_2019_2641316,
+  author       = {Brown, Jed and
+                  Abdelfattah, Ahmad and
+                  Barra, Valeria and
+                  Dobrev, Veselin and
+                  Dudouit, Yohann and
+                  Fischer, Paul and
+                  Kolev, Tzanio and
+                  Medina, David and
+                  Min, Misun and
+                  Ratnayaka, Thilina and
+                  Smith, Cameron and
+                  Thompson, Jeremy and
+                  Tomov, Stanimire and
+                  Tomov, Vladimir and
+                  Warburton, Tim},
+  title        = {{CEED ECP Milestone Report: Public release of CEED 
+                   2.0}},
+  month        = mar,
+  year         = 2019,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.2641316},
+  url          = {https://doi.org/10.5281/zenodo.2641316}
+}
+@misc{camier_jean_sylvain_2019_2542359,
+  author       = {Camier, Jean-Sylvain and
+                  Fischer, Paul and
+                  Ali Karakus and
+                  Kerkemeier, Stefan and
+                  Kolev, Tzanio and
+                  Lan, Yu-Hsiang and
+                  Medina, David and
+                  Merzari, Elia and
+                  Min, Misun and
+                  Obabko, Aleks and
+                  Ratnayaka, Thilina and
+                  Shaver, Dillon and
+                  Tomboulides, Ananias and
+                  Tomov, Vladimir and
+                  Warburton, Tim},
+  title        = {{CEED ECP Milestone Report: Engage second wave 
+                   ECP/CEED applications}},
+  month        = mar,
+  year         = 2019,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.2542359},
+  url          = {https://doi.org/10.5281/zenodo.2542359}
+}
+@misc{barba2019softwaredue,
+ title={Giving software its due through community-driven review and publication},
+ url={osf.io/f4vx6},
+ publisher={OSF Preprints},
+ author={Barba, Lorena and Bazán, Juanjo and Brown, Jed and Guimera, Roman V and Gymrek, Melissa and Hanna, Alex and Heagy, Lindsey J and Huff, Kathryn D and Katz, Daniel S and Madan, Christopher R and et al.},
+ year={2019},
+ month={Apr},
+ doi={10.31219/osf.io/f4vx6}
+}
 @book{jupyter4edu,
   author = {Lorena A. Barba and
     Lecia J. Barker and
@@ -336,7 +466,7 @@ summarize challenges and forecast opportunities.}
   pdf={https://jedbrown.org/files/CTSP-Report-2018.pdf}
 }
 @article{williams2018hpgmg,
-  author = {Samual Williams and Mark F. Adams and Jed Brown},
+  author = {Samuel Williams and Mark F. Adams and Jed Brown},
   title = {High-Performance Geometric Multigrid: {A}n {HPC} Performance Benchmark},
   journal = {SIAM News},
   volume = 51,
@@ -553,11 +683,12 @@ summarize challenges and forecast opportunities.}
   adsurl   = {http://adsabs.harvard.edu/abs/2013arXiv1309.1204K},
   adsnote  = {Provided by the SAO/NASA Astrophysics Data System}
 }
-@misc{Brown13,
+@misc{brown2013repo,
   author = {J. Brown},
   title = {Scalable Repository Workflows},
   note = {Whitepaper submitted to DOE Workshop on Software Productivity for Extreme-Scale Science, available via \url{http://www.orau.gov/swproductivity2014/papers.htm}},
-  year = 2013
+  year = 2013,
+  pdf = {https://jedbrown.org/files/Brown-ScalableRepositoryWorkflows-2013.pdf}
 }
 @article{brown2012nonblockingieee,
   author={Jed Brown},
@@ -603,11 +734,11 @@ summarize challenges and forecast opportunities.}
             and Dinesh Kaushik and Matthew~G. Knepley and Dave~A. May and Lois Curfman McInnes
             and Richard Tran Mills and Todd Munson and Karl Rupp and Patrick Sanan
             and Barry~F. Smith and Stefano Zampini and Hong Zhang and Hong Zhang},
-  title  = {{PETS}c Users Manual: Revision 3.10},
+  title  = {{PETS}c Users Manual: Revision 3.12},
   institution = {Argonne National Laboratory},
-  year   = 2018,
-  Number = {ANL-95/11 - Rev 3.10},
-  url    = {http://www.mcs.anl.gov/petsc}
+  year   = 2019,
+  Number = {ANL-95/11 - Rev 3.12},
+  url    = {https://mcs.anl.gov/petsc}
 }
 @techreport{HPGMGv1,
   author =      "M. F. Adams  and J. Brown and J. Shalf and B. Van Straalen
