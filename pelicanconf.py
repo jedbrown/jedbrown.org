@@ -74,25 +74,8 @@ LANDING_PAGE_ABOUT = dict(title='Jed Brown',
 </p>
 
 <h5><a href="research">Research</a></h5>
-<p>Our research is in fast algorithms and robust community software for physically-based modeling, prediction, inference, and design.</p>
-
-<h5>Research Group</h5>
-<ul>
-  <li>Tristan Konolige (Computer Science PhD)</li>
-  <li>Sarah Gage (Computer Science PhD)</li>
-  <li>Jeremy Thompson (Applied Math PhD)</li>
-  <li>Reagan Cronin (Computer Science PhD)</li>
-  <li>Leila Ghaffari (Computer Science PhD)</li>
-  <li>Mike McCabe (Computer Science PhD)</li>
-  <li>Rezgar Shakeri (Civil Engineering PhD)</li>
-  <li><a href="https://csel.cs.colorado.edu/~vaba3353/">Valeria Barra</a> (Postdoc)</li>
-</ul>
-
-<h5>Alumni</h5>
-<ul>
-  <li><a href="https://www.flux.utah.edu/profile/dmdu">Dmitry Duplyakin</a> (2017 PhD Computer Science, now at University of Utah)</li>
-  <li>Matthew Normile (Aerospace Engineering BS+MS)</li>
-</ul>
+<p>Our research is in fast algorithms and robust community software for physically-based modeling, prediction, inference, and design.
+Check out our <a href="https://phypid.org">PhyPID research group website</a> for more about our research as well as current and former members.</p>
 
 <h5>Editorial Board</h5>
 <ul>

@@ -1,24 +1,61 @@
 %% Journal articles
+@article{brown2021libceed,
+  title={{libCEED}: Fast algebra for high-order element-based discretizations},
+  author={Jed Brown and Ahmad Abdelfattah and Valeria Barra* and Natalie Beams and Jean-Sylvain Camier and Veselin Dobrev and Yohann Dudouit and Leila Ghaffari* and Tzanio Kolev and David Medina and Will Pazner and Thilina Rathnayake and Jeremy Thompson* and Stan Tomov},
+  journal={Journal of Open Source Software},
+  year={2021 (submitted)},
+  doi={10.21105/joss.02945}
+}
+@article{zhang2021petscsf,
+  title={The {PetscSF} Scalable Communication Layer},
+  author={Zhang, Junchao and Brown, Jed and Balay, Satish and Faibussowitsch, Jacob and Knepley, Matthew and Marin, Oana and Mills, Richard Tran and Munson, Todd and Smith, Barry F and Zampini, Stefano},
+  journal={International Journal of High Performance Computing Applications},
+  archivePrefix={arXiv},
+  eprint={2102.13018},
+  year={2021 (submitted)}
+}
+@article{kolev2021ecpceed,
+  title={Efficient Exascale Discretizations: High-Order Finite Element Methods},
+  author={Tzanio Kolev and Paul Fischer and Misun Min and Jack Dongarra and Jed Brown and Veselin Dobrev and Tim Warburton and Stanimire Tomov and Mark S. Shephard and Ahmad Abdelfattah and Valeria Barra* and Natalie Beams and Jean-Sylvain Camier and Noel Chalmers and Yohann Dudouit and Ali Karakus and Ian Karlin and Stefan Kerkemeier and Yu-Hsiang Lan and David Medina and Elia Merzari and Aleksandr Obabko and Will Pazner and Thilina Rathnayake and Cameron W. Smith and Lukas Spies and Kasia Swirydowicz and Jeremy Thompson* and Ananias Tomboulides and Vladimir Tomov},
+  journal={International Journal of High Performance Computing Applications},
+  year={2020 (submitted)}
+}
+@article{mills2021ecppetsc,
+  title={Toward Performance-Portable {PETSc} for {GPU}-based Exascale Systems},
+  author={Richard Tran Mills and Mark F. Adams and Satish Balay and Jed Brown and Alp Dener and Matthew Knepley and Scott E. Kruger and Hannah Morgan and Todd Munson and Karl Rupp and Barry F. Smith and Stefano Zampini and Hong Zhang and Junchao Zhang},
+  journal={International Journal of High Performance Computing Applications},
+  year={2020 (submitted)}
+}
 @misc{abhyankar2018petscts,
   title={{PETSc/TS}: {A} Modern Scalable {ODE/DAE} Solver Library},
   author={Shrirang Abhyankar and Jed Brown and Emil M. Constantinescu and Debojyoti Ghosh and
 Barry F. Smith and Hong Zhang},
   year={2018}
 }
-@article{brown2020tuning,
+@article{brown2021tuning,
   title={Tuning Multigrid Methods with Robust Optimization},
   author={Brown, Jed and He, Yunhui and MacLachlan, Scott and Menickelly, Matt and Wild, Stefan M},
-  journal={Submitted to SISC},
+  journal={SIAM Journal on Scientific Computing},
+  volume={43},
+  issue=1,
+  pages={A109--A138},
   archivePrefix={arXiv},
   eprint={2001.00887},
-  year={2020 (submitted)}
+  year={2021},
+  doi={10.1137/19M1308669}
 }
 @article{fischer2020scalability,
   title={Scalability of High-Performance {PDE} Solvers},
   author={Fischer, Paul and Min, Misun and Rathnayake, Thilina and Dutta, Som and Kolev, Tzanio and Dobrev, Veselin and Camier, Jean-Sylvain and Kronbichler, Martin and Warburton, Tim and Świrydowicz, Kasia and Brown, Jed},
   journal={International Journal of High Performance Computing Applications},
   publisher={SAGE Publications},
-  year={2020 (accepted)},
+  year={2020},
+  volume={34},
+  issue=5,
+  pages={562--586},
+  doi={10.1177/1094342020915762},
+  archivePrefix={arXiv},
+  eprint={2004.06722}
 }
 @article{brown2019lfabddc,
   title={Local {F}ourier analysis of {BDDC}-like algorithms},
@@ -108,14 +145,14 @@ Barry F. Smith and Hong Zhang},
  title    = {Multiphysics Simulations: Challenges and Opportunities},
  author   = {David E. Keyes and Lois Curfman McInnes and Carol Woodward and
              William Gropp and Eric Myra and Michael Pernice and
-             John Bell and Jed Brown and Alain Clo and Jeffrey Connors and 
-             Emil Constantinescu and Don Estep and Kate Evans and Charbel Farhat and 
-             Ammar Hakim and Glenn Hammond and Glen Hansen and Judith Hill and 
-             Tobin Isaac and Xiangmin Jiao and Kirk Jordan and Dinesh Kaushik and 
-             Efthimios Kaxiras and Alice Koniges and Kihwan Lee and Aaron Lott and 
-             Qiming Lu and John Magerlein and Reed Maxwell and Michael McCourt and 
+             John Bell and Jed Brown and Alain Clo and Jeffrey Connors and
+             Emil Constantinescu and Don Estep and Kate Evans and Charbel Farhat and
+             Ammar Hakim and Glenn Hammond and Glen Hansen and Judith Hill and
+             Tobin Isaac and Xiangmin Jiao and Kirk Jordan and Dinesh Kaushik and
+             Efthimios Kaxiras and Alice Koniges and Kihwan Lee and Aaron Lott and
+             Qiming Lu and John Magerlein and Reed Maxwell and Michael McCourt and
              Miriam Mehl and Roger Pawlowski and Amanda Peters Randles and Daniel Reynolds and
-             Beatrice Rivi\`{e}re and Ulrich R\"{u}de and Tim Scheibe and John Shadid and 
+             Beatrice Rivi\`{e}re and Ulrich R\"{u}de and Tim Scheibe and John Shadid and
              Brendan Sheehan and Mark Shephard and Andrew Siegel and
              Barry Smith and Xianzhu Tang and Cian Wilson and Barbara Wohlmuth},
  journal  = {International Journal of High Performance Computing Applications},
@@ -235,6 +272,36 @@ summarize challenges and forecast opportunities.}
 }
 
 %% Conference
+@InProceedings{mehraban2021nearlyincompressible,
+  author = {A. Mehraban* and J. Thompson* and J. Brown and R. Regueiro and V. Barra* and H. Tufo},
+  title = {Simulating Compressible and Nearly-Incompressible Linear Elasticity Using an Efficient Parallel Scalable Matrix-Free High-Order Finite Element Method},
+  booktitle = {Proceedings of {WCCM-ECCOMAS2020}},
+  pages = {1--15},
+  year = 2021,
+  doi = {10.23967/wccm-eccomas.2020.302},
+  pdf={//files/MehrabanAO-CompressibleNearlyIncompressibleLinearElasticity-2021.pdf}
+}
+@proceedings{mehraban2020neohookean,
+    author = {Mehraban*, Arash and Brown, Jed and Barra*, Valeria and Tufo, Henry and Thompson*, Jeremy and Regueiro, Richard},
+    title = "{Efficient Residual and Matrix-Free Jacobian Evaluation for Three-Dimensional Tri-Quadratic Hexahedral Finite Elements With Nearly-Incompressible Neo-Hookean Hyperelasticity Applied to Soft Materials on Unstructured Meshes in Parallel, With PETSc and libCEED}",
+    volume = {Volume 12: Mechanics of Solids, Structures, and Fluids},
+    series = {ASME International Mechanical Engineering Congress and Exposition},
+    year = {2020},
+    month = {11},
+    abstract = "{Soft materials such as rubber, elastomers, and soft biological tissues mechanically deform at large strain isochorically for all time, or during their initial transient (when a pore fluid, typically incompressible such as water, does not have time to flow out of the deforming polymer or soft tissue porous skeleton). Simulating these large isochoric deformations computationally, such as with the Finite Element Method (FEM), requires higher order (typically quadratic) interpolation functions and/or enhancements through hybrid/mixed methods to maintain stability. Lower order (linear) finite elements with hybrid/mixed formulation may not perform stably for all mechanical loading scenarios involving large isochoric deformations, whereas quadratic finite elements with or without hybrid/mixed formulation typically perform stably, especially when large bending or folding deformations are being simulated. For topology-optimization design of soft robotics, for instance, the FEM solid mechanics solver must run efficiently and stably. Stability is ensured by the higher order finite element formulation (with possible enhancement), but efficiency for higher order FEM remains a challenge. Thus, this paper addresses efficiency from the perspective of computer science algorithms and programming. The proposed efficient algorithm utilizes the Portable, Extensible Toolkit for Scientific Computation (PETSc), along with the libCEED library for efficient compiler optimized tensor-product-basis computation to demonstrate an efficient nonlinear solution algorithm. For preconditioning, a scalable p-multigrid method is presented whereby a hierarchy of levels is constructed. In contrast to classical geometric multigrid, also known as h-multigrid, each level in p-multigrid is related to a different approximation polynomial order, p, instead of the element size, h. A Chebyshev polynomial smoother is used on each multigrid level. Algebraic MultiGrid (AMG) is then applied to the assembled Q1 (linear) coarse mesh on the nodes of the quadratic Q2 (quadratic) mesh. This allows low storage that can be efficiently used to accelerate the convergence to solution. For a Neo-Hookean hyperelastic problem, we examine a residual and matrix-free Jacobian formulation of a tri-quadratic hexahedral finite element with enhancement. Efficiency estimates on AVX-2 architecture based on CPU time are provided as a comparison to similar simulation (and mesh) of isochoric large deformation hyperelasticity as applied to soft materials conducted with the commercially-available FEM software program ABAQUS. The particular problem in consideration is the simulation of an assistive device in the form of finger-bending in 3D.}",
+    doi = {10.1115/IMECE2020-24522},
+    note = {V012T12A027},
+    url = {https://asmedigitalcollection.asme.org/IMECE/proceedings-pdf/IMECE2020/84607/V012T12A027/6638664/v012t12a027-imece2020-24522.pdf},
+}
+@InProceedings{ libceed-paper-proc-scipy-2020,
+  author    = { {V}aleria {B}arra* and {J}ed {B}rown and {J}eremy {T}hompson* and {Y}ohann {D}udouit },
+  title     = { {H}igh-performance operator evaluations with ease of use: lib{C}{E}{E}{D}'s {P}ython interface },
+  booktitle = { {P}roceedings of the 19th {P}ython in {S}cience {C}onference },
+  pages     = { 85 - 90 },
+  year      = { 2020 },
+  editor    = { {M}eghann {A}garwal and {C}hris {C}alloway and {D}illon {N}iederhut and {D}avid {S}hupe },
+  doi       = { 10.25080/Majora-342d178e-00c }
+}
 @inproceedings{konolige2018parallel,
   title={A Parallel Solver for Graph {L}aplacians},
   author={Tristan Konolige* and Jed Brown},
@@ -288,7 +355,7 @@ summarize challenges and forecast opportunities.}
 @inproceedings{brown2013runtime,
   title={Run-time extensibility: anything less is unsustainable},
   author={Jed Brown, Matthew G. Knepley, Barry F. Smith},
-  booktitle={Workshop towards Sustainable Software for Science: Practice and Experiences (WSSSPE)},  
+  booktitle={Workshop towards Sustainable Software for Science: Practice and Experiences (WSSSPE)},
   doi={10.6084/m9.figshare.791571},
   year={2013}
 }
@@ -325,6 +392,117 @@ summarize challenges and forecast opportunities.}
 }
 
 %% Reports
+@misc{kolev2021ceedms36,
+  title={{CEED ECP} Milestone Report: High-order algorithmic developments and optimizations for large-scale {GPU}-accelerated simulations},
+  DOI={10.5281/zenodo.4672664},
+  publisher={Zenodo},
+  author={Kolev, Tzanio and Fischer, Paul and Austin, Anthony P. and Barker, Andrew T. and Beams, Natalie and Brown, Jed and Camier, Jean-Sylvain and Chalmers, Noel and Dobrev, Veselin and Dudouit, Yohann and et al.},
+  year={2021},
+  month={Mar}
+}
+@misc{konolige2020multigrid,
+  title={Multigrid for Bundle Adjustment},
+  author={Tristan Konolige and Jed Brown},
+  year={2020},
+  eprint={2007.01941},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV}
+}
+@misc{abdelfattah_ahmad_2020_4302737,
+  author       = {Abdelfattah, Ahmad and
+                  Barra, Valeria and
+                  Beams, Natalie and
+                  Brown, Jed and
+                  Camier, Jean-Sylvain and
+                  Dobrev, Veselin and
+                  Dudouit, Yohann and
+                  Ghaffari, Leila and
+                  Kolev, Tzanio and
+                  Medina, David and
+                  Rathnayake, Thilina and
+                  Thompson, Jeremy L and
+                  Tomov, Stanimire},
+  title        = {libCEED User Manual},
+  month        = sep,
+  year         = 2020,
+  publisher    = {Zenodo},
+  version      = {0.7},
+  doi          = {10.5281/zenodo.4302737},
+  url          = {https://doi.org/10.5281/zenodo.4302737}
+}
+@misc{kolev_tzanio_2020_4146401,
+  author       = {Kolev, Tzanio and
+                  Fischer, Paul and
+                  Abdelfattah, Ahmad and
+                  Barra, Valeria and
+                  Beams, Natalie and
+                  Brown, Jed and
+                  Camier, Jean-Sylvain and
+                  Chalmers, Noel and
+                  Dobrev, Veselin and
+                  Kerkemeier, Stefan and
+                  Lan, Yu-Hsiang and
+                  Merzari, Elia and
+                  Min, Misun and
+                  Phillips, Malachi and
+                  Ratnayaka, Thilina and
+                  Rowe, Kris and
+                  Thompson, Jeremy and
+                  Tomboulides, Ananias and
+                  Tomov, Stanimire and
+                  Tomov, Vladimir and
+                  Warburton, Tim},
+  title        = {{CEED ECP Milestone Report: Support CEED-enabled
+                   ECP applications in their preparation for
+                   Aurora/Frontier}},
+  month        = sep,
+  year         = 2020,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.4146401},
+  url          = {https://doi.org/10.5281/zenodo.4146401}
+}
+@misc{kolev_tzanio_2020_3860804,
+  author       = {Kolev, Tzanio and
+                  Fischer, Paul and
+                  Abdelfattah, Ahmad and
+                  Ananthan, Shreyas and
+                  Barra, Valeria and
+                  Beams, Natalie and
+                  Bleile, Ryan and
+                  Brown, Jed and
+                  Carson, Robert and
+                  Camier, Jean-Sylvain and
+                  Churchfield, Matthew and
+                  Dobrev, Veselin and
+                  Dongarra, Jack and
+                  Dudouit, Yohann and
+                  Karakus, Ali and
+                  Kerkemeier, Stefan and
+                  Lan, YuHsiang and
+                  Medina, David and
+                  Merzari, Elia and
+                  Min, Misun and
+                  Parker, Scott and
+                  Ratnayaka, Thilina and
+                  Smith, Cameron and
+                  Sprague, Michael and
+                  Stitt, Thomas and
+                  Thompson, Jeremy and
+                  Tomboulides, Ananias and
+                  Tomov, Stanimire and
+                  Tomov, Vladimir and
+                  Vargas, Arturo and
+                  Warburton, Tim and
+                  Weiss, Kenneth},
+  title        = {{CEED ECP Milestone Report: Improve performance and
+                   capabilities of CEED-enabled ECP applications on
+                   Summit/Sierra}},
+  month        = may,
+  year         = 2020,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.3860804},
+  url          = {https://doi.org/10.5281/zenodo.3860804}
+}
 @misc{tomov_stanimire_2019_3477618,
   author       = {Tomov, Stanimire and
                   Abdelfattah, Ahmad and
@@ -349,7 +527,7 @@ summarize challenges and forecast opportunities.}
                   Tomboulides, Ananias and
                   Tomov, Vladimir and
                   Warburton, Tim},
-  title        = {{CEED ECP Milestone Report: Performance tuning of 
+  title        = {{CEED ECP Milestone Report: Performance tuning of
                    CEED software and 1st and 2nd wave apps}},
   month        = oct,
   year         = 2019,
@@ -371,7 +549,7 @@ summarize challenges and forecast opportunities.}
                   Siboni, Morteza H. and
                   Thompson, Jeremy and
                   Warburton, Tim},
-  title        = {{CEED ECP Milestone Report: Improved Support for 
+  title        = {{CEED ECP Milestone Report: Improved Support for
                    Parallel Adaptive Simulation in CEED}},
   month        = jul,
   year         = 2019,
@@ -395,7 +573,7 @@ summarize challenges and forecast opportunities.}
                   Tomov, Stanimire and
                   Tomov, Vladimir and
                   Warburton, Tim},
-  title        = {{CEED ECP Milestone Report: Public release of CEED 
+  title        = {{CEED ECP Milestone Report: Public release of CEED
                    2.0}},
   month        = mar,
   year         = 2019,
@@ -419,7 +597,7 @@ summarize challenges and forecast opportunities.}
                   Tomboulides, Ananias and
                   Tomov, Vladimir and
                   Warburton, Tim},
-  title        = {{CEED ECP Milestone Report: Engage second wave 
+  title        = {{CEED ECP Milestone Report: Engage second wave
                    ECP/CEED applications}},
   month        = mar,
   year         = 2019,
@@ -601,7 +779,7 @@ summarize challenges and forecast opportunities.}
   year = 2016
 }
 @article{petsc-extensibility2016,
-  author = {M. Knepley and D. A. May and J. Brown and B. Smith}, 
+  author = {M. Knepley and D. A. May and J. Brown and B. Smith},
   title = {Extensibility in {PETSc}},
   journal = {SIAM News},
   volume=49,
@@ -735,10 +913,10 @@ summarize challenges and forecast opportunities.}
             and Dinesh Kaushik and Matthew~G. Knepley and Dave~A. May and Lois Curfman McInnes
             and Richard Tran Mills and Todd Munson and Karl Rupp and Patrick Sanan
             and Barry~F. Smith and Stefano Zampini and Hong Zhang and Hong Zhang},
-  title  = {{PETS}c Users Manual: Revision 3.12},
+  title  = {{PETS}c Users Manual: Revision 3.15},
   institution = {Argonne National Laboratory},
-  year   = 2019,
-  Number = {ANL-95/11 - Rev 3.12},
+  year   = 2021,
+  Number = {ANL-95/11 - Rev 3.15},
   url    = {https://mcs.anl.gov/petsc}
 }
 @techreport{HPGMGv1,
